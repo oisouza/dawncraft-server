@@ -1,0 +1,132 @@
+{
+  "name": "kaisyn:village/swamp_poor/houses",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/big_house_1",
+        "processors": "kaisyn:street_swamp"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/big_house_2",
+        "processors": "kaisyn:street_swamp"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/big_house_3",
+        "processors": "kaisyn:street_swamp"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/butcher_house_1",
+        "processors": "kaisyn:street_swamp"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/church_1",
+        "processors": "kaisyn:street_swamp"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/medium_house_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/medium_house_2",
+        "processors": "kaisyn:street_swamp"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/medium_house_3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/medium_house_4",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/small_house_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/small_house_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/small_house_3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/toolsmith_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/weaponsmith_1",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "kaisyn:village/old_growth_taiga_polish/decor",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "feature": "minecraft:pile_hay",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/old_growth_taiga_polish/decor/flowers",
+        "processors": "kaisyn:street_polish"
+      }
+    }
+  ]
+}

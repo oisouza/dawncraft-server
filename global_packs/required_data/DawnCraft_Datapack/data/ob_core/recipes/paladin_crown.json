@@ -1,0 +1,29 @@
+{
+  "group": "paladin_crown",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "ob_core:witchstone_shard"
+    },
+    "2": {
+      "item": "ob_core:witchstone_shard"
+    },
+    "3": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "4": {
+      "item": "ob_core:witchstone_shard"
+    },
+    "5": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "ob_core:paladin_extra_helmet",
+    "count": 1
+  }
+}

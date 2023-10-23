@@ -1,0 +1,36 @@
+{
+  "group": "paladin_leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ob_core:witchstone_shard"
+    },
+    "1": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "2": {
+      "item": "ob_core:witchstone_shard"
+    },
+    "3": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "5": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "6": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "8": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "ob_core:paladin_leggings",
+    "count": 1
+  }
+}

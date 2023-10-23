@@ -1,0 +1,42 @@
+{
+  "name": "kaisyn:village/mushroom_fields_fantasy/light_professions",
+  "fallback": "kaisyn:village/mushroom_fields_fantasy/light_professions",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/professions/cartographer",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/professions/fisher",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/professions/fletcher",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/professions/shepherd",
+        "processors": "kaisyn:street_mushroom"
+      }
+    }
+  ]
+}

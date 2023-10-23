@@ -1,0 +1,33 @@
+{
+  "common": [
+    {
+      "entity": "minecraft:zombie",
+      "weight": 3
+    },
+    {
+      "entity": "minecraft:skeleton",
+      "weight": 2
+    },
+    {
+      "entity": "minecraft:stray",
+      "weight": 2
+    },
+    {
+      "entity": "minecraft:wither_skeleton"
+    },
+    {
+      "entity": "simple_mobs:imp_melee"
+    },
+    {
+      "entity": "simple_mobs:imp_range"
+    }
+  ],
+  "rare": [
+    {
+      "entity": "minecraft:creeper"
+    },
+    {
+      "entity": "minecraft:enderman"
+    }
+  ]
+}

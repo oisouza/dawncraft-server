@@ -1,0 +1,69 @@
+{
+  "name": "kaisyn:village/sparse_jungle_hawaii/streets",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/sparse_jungle_hawaii/streets/corner_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/sparse_jungle_hawaii/streets/corner_2",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/sparse_jungle_hawaii/streets/crossroad_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/sparse_jungle_hawaii/streets/crossroad_2",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/sparse_jungle_hawaii/streets/crossroad_3",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/sparse_jungle_hawaii/streets/straight_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/sparse_jungle_hawaii/streets/straight_2",
+        "processors": "kaisyn:street_hawaii"
+      }
+    }
+  ]
+}

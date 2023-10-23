@@ -1,0 +1,33 @@
+
+[weapon_config]
+
+	[weapon_config.sample]
+		registry_name = "samle"
+		#Allowed Values: NONE_WEAON, AXE, FIST, STRAIGHT_SWORD, SHIELD, GREAT_HAMMER, DAGGER, HAMMER, SPEAR, ULTRA_GREATSWORD, BOW, CROSSBOW
+		category = "STRAIGHT_SWORD"
+		requiredStrength = 0
+		requiredDex = 0
+		#Allowed Values: S, A, B, C, D, E, NONE
+		strengthScaling = "NONE"
+		#Allowed Values: S, A, B, C, D, E, NONE
+		dexScaling = "NONE"
+
+[shield_config]
+
+	[shield_config.sample_shield]
+		registry_name = "sample_shield"
+		#Allowed Values: NONE_WEAON, AXE, FIST, STRAIGHT_SWORD, SHIELD, GREAT_HAMMER, DAGGER, HAMMER, SPEAR, ULTRA_GREATSWORD, BOW, CROSSBOW
+		category = "SHIELD"
+		requiredStrength = 0
+		requiredDex = 0
+		#Allowed Values: S, A, B, C, D, E, NONE
+		strengthScaling = "NONE"
+		#Allowed Values: S, A, B, C, D, E, NONE
+		dexScaling = "NONE"
+		#Allowed Values: NONE, SMALL, NORMAL, GREAT, UNIQUE, CRACKED_ROUND_SHIELD, IRON_ROUND_SHIELD
+		shield_type = "NORMAL"
+		#Allowed Values: WOOD, METAL
+		shield_material = "WOOD"
+		#Range: 0.0 ~ 1.0
+		physicalDefense = 0.0
+

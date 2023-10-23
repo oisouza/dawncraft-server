@@ -1,0 +1,51 @@
+{
+  "name": "kaisyn:village/sunflower_plains_farm/side",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/sunflower_plains_farm/side/way",
+        "processors": "kaisyn:street_farm"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/sunflower_plains_farm/farm_wheat",
+        "processors": "kaisyn:street_farm"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/sunflower_plains_farm/side/farm_betroots",
+        "processors": "kaisyn:street_farm"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sunflower_plains_farm/side/farm_pumpkin",
+        "processors": "kaisyn:street_farm"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sunflower_plains_farm/side/windmill",
+        "processors": "kaisyn:street_farm"
+      }
+    }
+  ]
+}

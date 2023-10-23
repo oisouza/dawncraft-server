@@ -1,0 +1,1207 @@
+[[entities]]
+  entity = "minecraft:creeper"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:projectile_1"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:projectile_1"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:projecttest"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:protector"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:projectile_2"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:spikes"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:tail_dart"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:spell_1"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:spell_2"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ghostprojectile"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:projectile_magic"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:fire_giant"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:fireball"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:woodenday"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:getsuga_65"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:projectile_summoningbell"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:summoningeffect"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:spiritnick"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:gemspike"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:cube"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:roar"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ground_spike"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:sword_projectile"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ball"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:merlin_1306"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:shadow"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:shadow_mew_yt"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:guardian_eye"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:solar_pixel"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:u_gone"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:wither_ray"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:damaginglaser"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:tiny_necromancer"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:laser_2"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:staff_usage"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:barrel_man"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:defeating_cube"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:josslyn_mc" 
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:griffingrab" 
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:multipartbody_2" 
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:multipartbody" 
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:multi_part_leg" 
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:air" 
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:rumble" 
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:flame_ball" 
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:lava_ball" 
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:grabbed" 
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:griffingrab"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:fire_dragon_ambient"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:fire_drag_proj"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:dragon_flame"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:fire_dragon"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:drag_multi_part_2"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:drag_multi_part_3"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:drag_multi_part_4"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:drag_multi_part_5"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:drag_multi_part_6"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:fire_dragon_grab"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ice_dragon_breath"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ice_dragon_ambient"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ice_dragon_projectile"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ice_dragon"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ice_drag_multi_part_3"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ice_drag_multi_part_4"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ice_drag_multi_part_5"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ice_drag_multi_part_6"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ice_drag_multi_part_2"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:imp_bomb"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:wind"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:asharmor_ice"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:asharmor_fire"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:raiddetectwitch"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:raiddetectwitch"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:skeletonlord"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:patronwerewolf"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:patronwerewolf"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:bone"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ogre"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:giant_skele"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:giant_skele"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:losteye_effect_1"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:losteye_effect_2"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:losteye_effect_3"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:losteyeproj"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:elemental_deity"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notchflash_1"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notchflash_2"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notchflash_3"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notchflash_4"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notchgroundeffect_1"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notchgroundeffect_2"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notchgroundeffect_3"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notchgroundeffect_4"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notch_punch"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notch_stompeffect"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:elemental_flash_1"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:elemental_flash_2"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:elemental_flash_3"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:elemental_grab"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:blackhole"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:elemental_chain"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:elemental_shield"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:elemental_attack_1"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:elemental_attack_2"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:elemental_projectile"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notch_boss"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notch_grab"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:elemental_spawn"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notch_flash_5"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:notch_sit"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:fire_drag_multi_part"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:fire_drag_multi_part_1"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ice_drag_multi_part"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ice_drag_multi_part_1"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:claw_mark"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:shield_element"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:korok_1"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:korok_1"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:korok_2"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:korok_3"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:korok_4"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:korok_5"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:korok_intro"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:martian"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:cave_dweller"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "illageandspillage:magispeller"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "illageandspillage:spiritcaller"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:korok_5_balloon"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:korok_5_balloon"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "darkersouls:nameless_king"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "bloodandmadness:father_gascoigne"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "cataclysm:ender_golem"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "meetyourfight:bellringer"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "meetyourfight:dame_fortuna"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "meetyourfight:swampjaw"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "blue_skies:starlit_crusher"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "conjurer_illager:conjurer"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "blue_skies:arachnarch"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "alexsmobs:warped_mosco"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "cataclysm:ender_guardian"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "minecraft:wither"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "minecraft:ender_dragon"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "cataclysm:netherite_monstrosity"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "cataclysm:ignis"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "alexsmobs:void_worm"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "alexsmobs:void_worm_part"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "aquamirae:captain_cornelia"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "ba_bt:land_golem"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "ba_bt:ocean_golem"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "simple_mobs:ensnared_soul"
+  minTier = 0
+  maxTier = 0
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"

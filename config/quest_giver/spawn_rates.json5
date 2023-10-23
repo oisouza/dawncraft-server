@@ -1,0 +1,13 @@
+{
+  // guild house spawn rate - default 3
+  "guild_house_spawn_rate": 3,
+  
+  // guild stall spawn rate - default 3
+  "guild_stall_spawn_rate": 3,
+  
+  // Quest Guard spawn weight - default 5
+  "quest_guard_weight": 2,
+  
+  // Quest Villager spawn weight - default 15
+  "quest_villager_weight": 15
+}

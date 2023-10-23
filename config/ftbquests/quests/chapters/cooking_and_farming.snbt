@@ -1,0 +1,1532 @@
+{
+	id: "3EB49AC9091F4E8E"
+	group: ""
+	order_index: 2
+	filename: "cooking_and_farming"
+	title: "Cooking and Farming"
+	icon: "farmersdelight:roast_chicken_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["The Food Book will provide you with information about your current food diversity and potential buffs. Obtained by crafting or as a reward from the \"Getting Started\" quests."]
+			size: 2.0d
+			id: "376B188AF19D4F72"
+			tasks: [{
+				id: "278ABB2E415C7890"
+				type: "item"
+				item: "solapplepie:food_book"
+			}]
+			rewards: [
+				{
+					id: "032B482B0530C114"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A230AB841ACB528"
+					type: "item"
+					item: {
+						id: "farmersdelight:iron_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.75d
+			description: ["Useful for storing multiple food items. Will automatically feed you a mix of the stored items to keep your diversity high."]
+			dependencies: ["376B188AF19D4F72"]
+			size: 1.5d
+			id: "194CDB0D75D58799"
+			tasks: [{
+				id: "668021422067DDB7"
+				type: "item"
+				item: {
+					id: "solapplepie:lunchbag"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "34E39FC71CCB2CD7"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			description: ["An improved version of the Lunch Bag. IMPORTANT: Do not upgrade while there is food stored inside. You will lose any stored food."]
+			dependencies: ["194CDB0D75D58799"]
+			id: "22DCD6AC0420D10C"
+			tasks: [{
+				id: "73A713D2BDD930FF"
+				type: "item"
+				item: {
+					id: "solapplepie:lunchbox"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 9
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "625B4D34BA886D3A"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			description: ["The ultimate lunchbox"]
+			dependencies: ["22DCD6AC0420D10C"]
+			id: "39FFD2636D46D983"
+			tasks: [{
+				id: "055695E2C9628E4C"
+				type: "item"
+				item: {
+					id: "solapplepie:golden_lunchbox"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 14
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "69317692BE576840"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 2
+				}
+				{
+					id: "0A9AB0C8B1A54975"
+					type: "item"
+					item: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+				}
+				{
+					id: "1208AB4E34282B88"
+					type: "item"
+					item: "plushies:axolotl"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "442B4EBA1459B315"
+			tasks: [{
+				id: "10B3CE7141BE9C7D"
+				type: "item"
+				item: "minecraft:wheat"
+			}]
+			rewards: [{
+				id: "2713CE8406442609"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "585AEE31E6CD8351"
+			tasks: [{
+				id: "6771DEF58F45484D"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+			rewards: [{
+				id: "554E4A608EEFC9C8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "2204CD1F99C02CF2"
+			tasks: [{
+				id: "57677C3CAC9C0A27"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+			rewards: [{
+				id: "6E951EC1F7B3B2D5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "2BFDB703E7BD87D1"
+			tasks: [{
+				id: "46D0DDE80B0B82B9"
+				type: "item"
+				item: "minecraft:beetroot"
+			}]
+			rewards: [{
+				id: "15C646B5F1DAB1F2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.0d
+			description: ["The seeds can be found in some village chests. Only available in some village types - exoplore the world to find more."]
+			dependencies: ["376B188AF19D4F72"]
+			id: "099491ED6F37C784"
+			tasks: [{
+				id: "037496054C53BEB2"
+				type: "item"
+				item: "farmersdelight:cabbage"
+			}]
+			rewards: [{
+				id: "0A11EA30AAA52DF5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			description: ["Found in some village chests. Only available in certain village types - explore the world to find more."]
+			dependencies: ["376B188AF19D4F72"]
+			id: "44D203B76A76712B"
+			tasks: [{
+				id: "447740746A018BB9"
+				type: "item"
+				item: "farmersdelight:rice"
+			}]
+			rewards: [{
+				id: "50D306E24B184F12"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "60D58BB0E4A43F33"
+			tasks: [{
+				id: "209D2336D126E6A0"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+			rewards: [{
+				id: "6351A6AA96345AF5"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 5
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "4BC497838B54657F"
+			tasks: [{
+				id: "08665CF8F578AF66"
+				type: "item"
+				item: "minecraft:sugar"
+			}]
+			rewards: [{
+				id: "188C287A79E46726"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.0d
+			description: ["Found in some village chests and farms. Only available in some village types - explore the world to find more."]
+			dependencies: ["376B188AF19D4F72"]
+			id: "62A150CFB2760609"
+			tasks: [{
+				id: "1E0112536BE53302"
+				type: "item"
+				item: "farmersdelight:onion"
+			}]
+			rewards: [{
+				id: "240056EF90A68292"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "48329029738C602E"
+			tasks: [{
+				id: "62CD758EA89C774B"
+				type: "item"
+				item: "minecraft:sweet_berries"
+			}]
+			rewards: [{
+				id: "486A9CB9573B56F1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "4D89D2E24A54B6AD"
+			tasks: [{
+				id: "7A47128D0E5DF56C"
+				type: "item"
+				item: "minecraft:glow_berries"
+			}]
+			rewards: [{
+				id: "3B07035257FBBE57"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "58F764B68ACD4B5F"
+			tasks: [{
+				id: "6F92DC0C8A694A3C"
+				type: "item"
+				item: "minecraft:pumpkin"
+			}]
+			rewards: [{
+				id: "25BCC71D41B85B88"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "0C2EDA66EB6320ED"
+			tasks: [{
+				id: "3603EFAC627133B5"
+				type: "item"
+				item: "minecraft:melon_slice"
+			}]
+			rewards: [{
+				id: "4060590CD497E01D"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			description: ["Cut raw beef with a knife on a cutting board workstation, then cook it with a furnace, skillet, or campfire."]
+			dependencies: ["376B188AF19D4F72"]
+			id: "04679D16C69544E2"
+			tasks: [{
+				id: "5B411D50F39E7B44"
+				type: "item"
+				item: "farmersdelight:beef_patty"
+			}]
+			rewards: [{
+				id: "3595A6026BADC7FC"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			description: ["Cut chicken with a knife on a cutting board workstation, then cook it in a skillet, furnace or camfire."]
+			dependencies: ["376B188AF19D4F72"]
+			id: "3BB51FC6F40C5AC1"
+			tasks: [{
+				id: "68269FA91ACD4FCA"
+				type: "item"
+				item: "farmersdelight:cooked_chicken_cuts"
+			}]
+			rewards: [{
+				id: "6205416BB5EAF23F"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			description: ["Cut a porkchop with a knife using a cutting board, then cook it in a furnace, skillet or campfire."]
+			dependencies: ["376B188AF19D4F72"]
+			id: "293DCE289B89CDC2"
+			tasks: [{
+				id: "51DB4804410643F5"
+				type: "item"
+				item: "farmersdelight:cooked_bacon"
+			}]
+			rewards: [{
+				id: "4796970500D41AFC"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			description: ["Kill a pig or hoglin using a knife to obtain ham (50% chance from pigs, guaranteed from hoglins). Cook the ham in a furnace, skillet or campfire."]
+			dependencies: ["376B188AF19D4F72"]
+			id: "03313D0A12D14F37"
+			tasks: [{
+				id: "609FE31A6E84F849"
+				type: "item"
+				item: "farmersdelight:smoked_ham"
+			}]
+			rewards: [{
+				id: "72DD18DE4C481D7D"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "45640C51719A2573"
+			tasks: [{
+				id: "36A4956131F3594D"
+				type: "item"
+				item: "minecraft:honey_bottle"
+			}]
+			rewards: [{
+				id: "46CB4AC759DE3D66"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			description: ["Cook rice in a pot, plate using a bowl."]
+			dependencies: ["376B188AF19D4F72"]
+			id: "50929880BD8A1B63"
+			tasks: [{
+				id: "2B894A896E13E1A9"
+				type: "item"
+				item: "farmersdelight:cooked_rice"
+			}]
+			rewards: [{
+				id: "6FDE8A0B4890796C"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "45F1A368ADDF8135"
+			tasks: [{
+				id: "1EF6E42A89A0877F"
+				type: "item"
+				item: "minecraft:brown_mushroom"
+			}]
+			rewards: [{
+				id: "243CFD9832F4F79B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "21A754A2DC161142"
+			tasks: [{
+				id: "49041F8C077DC8DE"
+				type: "item"
+				item: "minecraft:red_mushroom"
+			}]
+			rewards: [{
+				id: "1E170668A5296FFD"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			description: ["Obtained by cutting a kelp roll with a knife at a cutting board workstation."]
+			dependencies: ["376B188AF19D4F72"]
+			id: "40CF8A6612237A80"
+			tasks: [{
+				id: "687037EB17802404"
+				type: "item"
+				item: "farmersdelight:kelp_roll_slice"
+			}]
+			rewards: [{
+				id: "224E5735A11D650A"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			description: ["Cut salmon with a knife at a cutting board workstation, then cook it in a furnace, skillet or campfire"]
+			dependencies: ["376B188AF19D4F72"]
+			id: "15334E694F420CDC"
+			tasks: [{
+				id: "2A0B077D305A93B1"
+				type: "item"
+				item: "farmersdelight:cooked_salmon_slice"
+			}]
+			rewards: [{
+				id: "64097B347DD10BF7"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			description: ["Cut cod using a knife at a cutting board workstation, then cook it in a skillet, furnace or campfire."]
+			dependencies: ["376B188AF19D4F72"]
+			id: "7314264CA781B90F"
+			tasks: [{
+				id: "295958B5D228907C"
+				type: "item"
+				item: "farmersdelight:cooked_cod_slice"
+			}]
+			rewards: [{
+				id: "51787C23A9D4F75D"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "43292C60C651B63D"
+			tasks: [{
+				id: "24A5680423A69807"
+				type: "item"
+				item: "farmersdelight:apple_pie"
+			}]
+			rewards: [{
+				id: "32F585C934D9BFDC"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "31A3738865F35ECA"
+			tasks: [{
+				id: "42577B156D4B9944"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cheesecake"
+			}]
+			rewards: [{
+				id: "0D12290107241C00"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "7FE582D2B0DC8208"
+			tasks: [{
+				id: "34B39D8661F3753F"
+				type: "item"
+				item: "farmersdelight:chocolate_pie"
+			}]
+			rewards: [{
+				id: "03E79A1D68472B52"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "77C99B376BDA1278"
+			tasks: [{
+				id: "65E2D9FEBCD8565F"
+				type: "item"
+				item: "farmersdelight:sweet_berry_cookie"
+			}]
+			rewards: [{
+				id: "745B944205E99780"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "046B823879A45971"
+			tasks: [{
+				id: "7175F1795EB2829C"
+				type: "item"
+				item: "farmersdelight:honey_cookie"
+			}]
+			rewards: [{
+				id: "15888BDB9E7E4AB1"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "0DD4D84807DE8EC1"
+			tasks: [{
+				id: "2A802127927C7052"
+				type: "item"
+				item: "farmersdelight:melon_popsicle"
+			}]
+			rewards: [{
+				id: "79C4B70EED26D3B3"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "1DFF7FA66D986899"
+			tasks: [{
+				id: "56890082213B6D2E"
+				type: "item"
+				item: "farmersdelight:glow_berry_custard"
+			}]
+			rewards: [{
+				id: "34D5D6016DC7641F"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 3
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "709E9269350EB5C6"
+			tasks: [{
+				id: "17167382793ED8D9"
+				type: "item"
+				item: "farmersdelight:fruit_salad"
+			}]
+			rewards: [{
+				id: "63A2E21179E2BBE3"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "100EBD13B4FE3B95"
+			tasks: [{
+				id: "059782694280C7FD"
+				type: "item"
+				item: "farmersdelight:mixed_salad"
+			}]
+			rewards: [{
+				id: "71D6271A3383C98B"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "3D5954707E673E8B"
+			tasks: [{
+				id: "5A47F809088D823E"
+				type: "item"
+				item: "farmersdelight:nether_salad"
+			}]
+			rewards: [{
+				id: "02A5971BDE58E238"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "7D94299B86333EC4"
+			tasks: [{
+				id: "212C409ACC88879B"
+				type: "item"
+				item: "farmersdelight:barbecue_stick"
+			}]
+			rewards: [{
+				id: "1AFDD237C519D858"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "33EA44935F6AA3E5"
+			tasks: [{
+				id: "32C1641791E1CAC7"
+				type: "item"
+				item: "farmersdelight:egg_sandwich"
+			}]
+			rewards: [{
+				id: "1964A25400E6F4BF"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "66E2F91CD6245C07"
+			tasks: [{
+				id: "3ACCD5A988DDCC20"
+				type: "item"
+				item: "farmersdelight:chicken_sandwich"
+			}]
+			rewards: [{
+				id: "31A6E47C064101FC"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "1C1D05367EE28470"
+			tasks: [{
+				id: "75375F86B8E6979F"
+				type: "item"
+				item: "farmersdelight:hamburger"
+			}]
+			rewards: [{
+				id: "0888FBEED22F3F29"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "0C967EA5A146D516"
+			tasks: [{
+				id: "2D40BB2F18648C68"
+				type: "item"
+				item: "farmersdelight:bacon_sandwich"
+			}]
+			rewards: [{
+				id: "6B99E5B2B09F090E"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "332741FF862DEE59"
+			tasks: [{
+				id: "79453A492A4020BC"
+				type: "item"
+				item: "farmersdelight:mutton_wrap"
+			}]
+			rewards: [{
+				id: "44BEBACD374DDA8D"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: -6.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "4C818F10FDC5DDA6"
+			tasks: [{
+				id: "33104E728B74C2F0"
+				type: "item"
+				item: "farmersdelight:dumplings"
+			}]
+			rewards: [{
+				id: "0BC37482BF1BA436"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "2504C1086A07CDFF"
+			tasks: [{
+				id: "22AA3536F5B25578"
+				type: "item"
+				item: "farmersdelight:stuffed_potato"
+			}]
+			rewards: [{
+				id: "2B755DE7029EC822"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "3B2F7192AF0CB1DD"
+			tasks: [{
+				id: "7730EAD4ACD95D83"
+				type: "item"
+				item: "farmersdelight:cabbage_rolls"
+			}]
+			rewards: [{
+				id: "01A1171B1BD9FEF0"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "033271E59DFCA4B3"
+			tasks: [{
+				id: "63F7F5CFDA22357D"
+				type: "item"
+				item: "farmersdelight:salmon_roll"
+			}]
+			rewards: [{
+				id: "617CBCDAEA1FA378"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "229EF5B30981DF16"
+			tasks: [{
+				id: "539A8D99CBCF9E95"
+				type: "item"
+				item: "farmersdelight:cod_roll"
+			}]
+			rewards: [{
+				id: "514910C06EA88283"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "61AC30F27DEEF579"
+			tasks: [{
+				id: "3EDFA8448A5306D1"
+				type: "item"
+				item: "farmersdelight:bone_broth"
+			}]
+			rewards: [{
+				id: "6315788C638DBABB"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "1C5C4EC1903FF5A9"
+			tasks: [{
+				id: "70B708BC10D17D03"
+				type: "item"
+				item: "farmersdelight:beef_stew"
+			}]
+			rewards: [{
+				id: "087E20B7574BE52A"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "320B0D4685AE233C"
+			tasks: [{
+				id: "11785956AFC1DA3D"
+				type: "item"
+				item: "farmersdelight:chicken_soup"
+			}]
+			rewards: [{
+				id: "0A5147EAB24150F0"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "0365DB955F7E27B3"
+			tasks: [{
+				id: "022DB1499A7BE7B7"
+				type: "item"
+				item: "farmersdelight:vegetable_soup"
+			}]
+			rewards: [{
+				id: "03EAEEB1D434C733"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "452997351B5E9B18"
+			tasks: [{
+				id: "50AA947489C8E7EC"
+				type: "item"
+				item: "farmersdelight:fish_stew"
+			}]
+			rewards: [{
+				id: "0E15BC63283C4A49"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "55FD5941E95FE183"
+			tasks: [{
+				id: "559F35507A0EEB64"
+				type: "item"
+				item: "farmersdelight:fried_rice"
+			}]
+			rewards: [{
+				id: "6C7D4433D9C589C6"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "491F95D1F9B23D63"
+			tasks: [{
+				id: "7AEA5610B8DEAE89"
+				type: "item"
+				item: "farmersdelight:pumpkin_soup"
+			}]
+			rewards: [{
+				id: "4D6F4A3CB408AA9C"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -6.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "1C49D111BFD0D1DE"
+			tasks: [{
+				id: "6716A354388CF3FF"
+				type: "item"
+				item: "farmersdelight:baked_cod_stew"
+			}]
+			rewards: [{
+				id: "77FDB253D4534416"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -5.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "6C34ADD90208BD7F"
+			tasks: [{
+				id: "2803D78B1A081E95"
+				type: "item"
+				item: "farmersdelight:noodle_soup"
+			}]
+			rewards: [{
+				id: "52F85C7B04A2AC21"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "64BF5E0664C207E0"
+			tasks: [{
+				id: "3C78EF91912F6949"
+				type: "item"
+				item: "farmersdelight:bacon_and_eggs"
+			}]
+			rewards: [{
+				id: "67B29165F076D3BA"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "68E0AAC672D85771"
+			tasks: [{
+				id: "1BB1297A16B442FA"
+				type: "item"
+				item: "farmersdelight:pasta_with_meatballs"
+			}]
+			rewards: [{
+				id: "0C4F55BCA40EB063"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: -6.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "0B9F3B9DEBB5BA99"
+			tasks: [{
+				id: "4E81ED0A724FF33B"
+				type: "item"
+				item: "farmersdelight:pasta_with_mutton_chop"
+			}]
+			rewards: [{
+				id: "1EB1F67AA7AB7601"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: -5.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "124646B1191BEAB1"
+			tasks: [{
+				id: "1DA9A422B46E5E2D"
+				type: "item"
+				item: "farmersdelight:mushroom_rice"
+			}]
+			rewards: [{
+				id: "0C541644A18644D0"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "50D36F7E8CD64353"
+			tasks: [{
+				id: "7867EE9009D25166"
+				type: "item"
+				item: "farmersdelight:roasted_mutton_chops"
+			}]
+			rewards: [{
+				id: "7992DE8F4B461F98"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "667958134344172C"
+			tasks: [{
+				id: "6FE193C47676FEB4"
+				type: "item"
+				item: "farmersdelight:vegetable_noodles"
+			}]
+			rewards: [{
+				id: "20E7E984F42FE5E4"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: -6.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "1E916BD6F4A75248"
+			tasks: [{
+				id: "699E530BC1B4F693"
+				type: "item"
+				item: "farmersdelight:steak_and_potatoes"
+			}]
+			rewards: [{
+				id: "0BBB2BA082395043"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: -5.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "436D49282797962D"
+			tasks: [{
+				id: "08ACDB0E9702EE0B"
+				type: "item"
+				item: "farmersdelight:ratatouille"
+			}]
+			rewards: [{
+				id: "6B5410DF86FB0DEB"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: -4.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "6B87A6B223373B69"
+			tasks: [{
+				id: "755ECA17F2B63F80"
+				type: "item"
+				item: "farmersdelight:squid_ink_pasta"
+			}]
+			rewards: [{
+				id: "1F1A420E9BB17FC6"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "1A1471D47F1122BC"
+			tasks: [{
+				id: "479A9D37F0138EB4"
+				type: "item"
+				item: "farmersdelight:grilled_salmon"
+			}]
+			rewards: [{
+				id: "3F156B5838FA8DFE"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "3E3F765550CC5261"
+			tasks: [{
+				id: "3AFEA43561A3CEE2"
+				type: "item"
+				item: "farmersdelight:roast_chicken_block"
+			}]
+			rewards: [
+				{
+					id: "728A3F76D265825D"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 10
+				}
+				{
+					id: "5C9DA232EB4FB321"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "48BF15ADA815C81C"
+			tasks: [{
+				id: "45F0427B2A02989B"
+				type: "item"
+				item: "farmersdelight:stuffed_pumpkin_block"
+			}]
+			rewards: [
+				{
+					id: "1ECC67D4800036E6"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 5
+				}
+				{
+					id: "3698E60EEED78CF6"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "goblintraders:absorption"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "60076CD7C8DDF1AD"
+			tasks: [{
+				id: "1E82920A28CD039B"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham_block"
+			}]
+			rewards: [
+				{
+					id: "531D5A02EC37A386"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 5
+				}
+				{
+					id: "5B40B3F6B808126A"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:long_knowledge"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "60F4DA3C5FB91FE7"
+			tasks: [{
+				id: "0E5FAE3047F90D39"
+				type: "item"
+				item: "farmersdelight:shepherds_pie_block"
+			}]
+			rewards: [
+				{
+					id: "4A5A27E3725F8FFF"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 5
+				}
+				{
+					id: "16728D62AFFE6EAB"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:strong_haste"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["376B188AF19D4F72"]
+			id: "55BC1B2591616DB4"
+			tasks: [{
+				id: "06BB98265D7197DE"
+				type: "item"
+				item: "farmersdelight:rice_roll_medley_block"
+			}]
+			rewards: [
+				{
+					id: "4CCB1C6BB908B4B5"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 5
+				}
+				{
+					id: "2A005997FDFAF843"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:resistance"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Master Chef"
+			icon: {
+				id: "enigmaticlegacy:astral_dust"
+				Count: 1b
+				tag: {
+					display: {
+						Lore: [
+							"{\"text\":\"§bCurrency used to purchase\"}"
+							"{\"text\":\"§brare items from the Black Market.\"}"
+							"{\"text\":\"§bThe Black Market can be found\"}"
+							"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+						]
+						Name: "{\"text\":\"§d§lAstral Dust\"}"
+					}
+				}
+			}
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"Congradulations - you've cooked every meal! Claim your reward."
+				"Required: Complete all quests in this section."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"667958134344172C"
+				"0DD4D84807DE8EC1"
+				"04679D16C69544E2"
+				"046B823879A45971"
+				"40CF8A6612237A80"
+				"1C5C4EC1903FF5A9"
+				"68E0AAC672D85771"
+				"31A3738865F35ECA"
+				"60F4DA3C5FB91FE7"
+				"033271E59DFCA4B3"
+				"6C34ADD90208BD7F"
+				"48BF15ADA815C81C"
+				"64BF5E0664C207E0"
+				"491F95D1F9B23D63"
+				"60076CD7C8DDF1AD"
+				"43292C60C651B63D"
+				"50D36F7E8CD64353"
+				"1E916BD6F4A75248"
+				"332741FF862DEE59"
+				"0B9F3B9DEBB5BA99"
+				"1C1D05367EE28470"
+				"229EF5B30981DF16"
+				"0365DB955F7E27B3"
+				"3BB51FC6F40C5AC1"
+				"709E9269350EB5C6"
+				"15334E694F420CDC"
+				"3D5954707E673E8B"
+				"3E3F765550CC5261"
+				"61AC30F27DEEF579"
+				"55BC1B2591616DB4"
+				"7314264CA781B90F"
+				"1C49D111BFD0D1DE"
+				"1DFF7FA66D986899"
+				"452997351B5E9B18"
+				"77C99B376BDA1278"
+				"03313D0A12D14F37"
+				"66E2F91CD6245C07"
+				"124646B1191BEAB1"
+				"293DCE289B89CDC2"
+				"320B0D4685AE233C"
+				"55FD5941E95FE183"
+				"7FE582D2B0DC8208"
+				"0C967EA5A146D516"
+				"6B87A6B223373B69"
+				"3B2F7192AF0CB1DD"
+				"1A1471D47F1122BC"
+				"4C818F10FDC5DDA6"
+				"2504C1086A07CDFF"
+				"100EBD13B4FE3B95"
+				"33EA44935F6AA3E5"
+				"7D94299B86333EC4"
+				"50929880BD8A1B63"
+				"436D49282797962D"
+			]
+			size: 1.5d
+			id: "27A34AD3DD9F289D"
+			tasks: [{
+				id: "52A6E649DFF918B0"
+				type: "checkmark"
+				title: "Claim reward"
+			}]
+			rewards: [
+				{
+					id: "099D26A71E428AC4"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:astral_dust"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§bCurrency used to purchase\"}"
+									"{\"text\":\"§brare items from the Black Market.\"}"
+									"{\"text\":\"§bThe Black Market can be found\"}"
+									"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+								]
+								Name: "{\"text\":\"§d§lAstral Dust\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "6DC329D5005AA3CA"
+					type: "item"
+					item: "enigmaticlegacy:ichor_bottle"
+				}
+				{
+					id: "2B6CC9A7A11886B9"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "biomemakeover:liquid_bread"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Master Chef"
+			icon: "enigmaticlegacy:cosmic_cake"
+			x: -2.5d
+			y: -1.0d
+			description: ["You like big meals, huh? Let's see if you can finish this one..."]
+			dependencies: [
+				"60076CD7C8DDF1AD"
+				"60F4DA3C5FB91FE7"
+				"3E3F765550CC5261"
+				"48BF15ADA815C81C"
+				"55BC1B2591616DB4"
+			]
+			size: 1.5d
+			id: "502B87731514ECFA"
+			tasks: [{
+				id: "165653AAE4D53EFB"
+				type: "checkmark"
+				title: "Claim reward"
+			}]
+			rewards: [{
+				id: "591A46DBFA1845F7"
+				type: "item"
+				item: "enigmaticlegacy:cosmic_cake"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.5d
+			description: ["That's a lot of ingredients!"]
+			id: "3004619DBF1D9674"
+			tasks: [{
+				id: "591D6D23D19C8920"
+				type: "checkmark"
+				title: "Claim Reward"
+			}]
+			rewards: [{
+				id: "63EF7B63D72AE2FC"
+				type: "item"
+				item: "enigmaticlegacy:mending_mixture"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

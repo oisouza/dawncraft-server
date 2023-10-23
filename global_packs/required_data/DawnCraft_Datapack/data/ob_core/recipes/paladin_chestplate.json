@@ -1,0 +1,39 @@
+{
+  "group": "paladin_chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "2": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "3": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "4": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "5": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "6": {
+      "item": "ob_core:witchstone_shard"
+    },
+    "7": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "8": {
+      "item": "ob_core:witchstone_shard"
+    }
+  },
+  "result": {
+    "item": "ob_core:paladin_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+     "name": "minecraft:vindicator",
+     "idle": [],
+     "idle_faction": [
+	"skele", "nausea", "money", "hungry", "eye", "dots", "blueapple",
+ 	"bone", "bread", "creeper", "armorstand"
+	],
+     "engage": [
+	"player", "hostile", "bow"]
+}

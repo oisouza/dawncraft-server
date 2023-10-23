@@ -1,0 +1,8 @@
+
+[ingame]
+	#Range: 1 ~ 10
+	long_press_count = 2
+	show_health_indicator = true
+	dark_souls_ui = true
+	first_person_3d = true
+

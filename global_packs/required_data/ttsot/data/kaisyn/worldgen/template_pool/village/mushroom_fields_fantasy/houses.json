@@ -1,0 +1,87 @@
+{
+  "name": "kaisyn:village/mushroom_fields_fantasy/houses",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/houses/brown_house_1",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/houses/brown_house_2",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/houses/red_house_1",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/houses/red_house_2",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/houses/butcher",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/houses/farm",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/houses/mooshroom_pen",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/houses/heavy_professions_gazebo",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/houses/light_professions_gazebo",
+        "processors": "kaisyn:street_mushroom"
+      }
+    }
+  ]
+}

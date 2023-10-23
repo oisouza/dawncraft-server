@@ -1,0 +1,11 @@
+{
+	"type": "fist",
+	"attributes": {
+		"common": {
+  			"impact": 0.9,
+			"max_strikes": 0,
+                  "speed_bonus": 0.0,
+                  "damage_bonus": -0.0
+		}
+	}
+}

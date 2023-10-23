@@ -1,0 +1,33 @@
+{
+  "name": "kaisyn:village/exclusives/tatooine/underground",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/exclusives/tatooine/underground/house_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/exclusives/tatooine/underground/house_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/exclusives/tatooine/underground/house_3",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

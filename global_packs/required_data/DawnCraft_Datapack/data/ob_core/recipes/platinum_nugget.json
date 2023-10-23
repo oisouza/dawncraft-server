@@ -1,0 +1,16 @@
+{
+  "group": "platinum_nugget",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "ob_core:platinum_nugget",
+    "count": 9
+  }
+}

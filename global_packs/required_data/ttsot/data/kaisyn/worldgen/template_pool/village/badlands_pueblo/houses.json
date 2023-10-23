@@ -1,0 +1,255 @@
+{
+  "name": "kaisyn:village/badlands_pueblo/houses",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/small_house_1_l",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/small_house_1_r",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/small_house_2_l",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/small_house_2_r",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/small_house_3_l",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/small_house_3_r",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/small_house_4_l",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/small_house_4_r",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/small_house_5_l",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/small_house_5_r",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/small_house_6_l",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/small_house_6_r",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/misc_profession",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/medium_house_1_l",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/medium_house_1_r",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/medium_house_2_l",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/medium_house_2_r",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/big_house_1",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/big_house_2",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/big_house_3",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/big_house_4",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/armorer",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/cartographer",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/library",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/mason",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/temple",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/toolsmith_and_weaponsmith",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

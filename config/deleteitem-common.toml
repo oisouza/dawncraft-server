@@ -1,0 +1,9 @@
+
+#General configuration settings
+[General]
+	#Use F3+H to show tooltips and get the name of the item, place it here. It get delete. Example: ["minecraft:stone"]
+	#or if you need to ban multiple ["minecraft:stone", "minecraft:dirt"]
+	"Items To Delete" = ["orcz:orcweird_helmet", "orcz:orcweird_chestplate", "orcz:orcweird_leggings", "orcz:orcleader_leather_helmet", "orcz:orcleader_leather_chestplate", "orcz:orcleader_leather_leggings", "orcz:orcleader_main_helmet", "orcz:orcleader_main_chestplate", "orcz:orcleader_main_leggings", "orcz:orcnecro_helmet", "orcz:orcnecro_chestplate", "orcz:orcnecro_leggings", "orcz:orcsavage_2swordarmour_helmet", "orcz:orcsavage_2swordarmour_chestplate", "orcz:orcsavage_2swordarmour_leggings", "orcz:orcsavage_helmet", "orcz:orcsavage_chestplate", "orcz:orcsavage_leggings", "orcz:orcsavageshield_helmet", "orcz:orcsavageshield_chestplate", "orcz:orcsavageshield_leggings", "orcz:orcsavagebig_helmet", "orcz:orcsavagebig_chestplate", "orcz:orcsavagebig_leggings", "orcz:orcsavagebig_helmet", "orcz:orcsavagebig_chestplate", "orcz:orcsavagebig_leggings"]
+	#Enables/Disables the constant removal of items.
+	"Is it on?" = true
+

@@ -1,0 +1,631 @@
+{
+	id: "7FB6749A5C23A010"
+	group: ""
+	order_index: 3
+	filename: "storage"
+	title: "Storage"
+	icon: "ironchest:diamond_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Basic chests will only get you so far in this modpack, as there are thousands of unique items, and you will quickly find yourself drowning in a sea of chests to sort. Luckily, there are mods included in this modpack which make sorting your treasures (and junk) much easier."]
+			size: 2.0d
+			id: "4D1B105EE54EDEAF"
+			tasks: [{
+				id: "3B86BA54AA15287D"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "40A712D85762E768"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Iron Chests"
+			x: -2.0d
+			y: 0.0d
+			description: ["Sometimes you just need more space in one chest, and the chests from the Iron Chests mod is the best way to do that. Craft higher level chests to gain more storage. Great for early-game storage and items that you don't want to lose track of in a larger storage network"]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.5d
+			id: "08CB33FC1D450DE9"
+			tasks: [{
+				id: "5294D1E002785EAF"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [{
+				id: "189DAB9829851692"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Storage Drawers"
+			x: 2.0d
+			y: 0.0d
+			description: ["Storage Drawers are the perfect solution for when you need to store A LOT of one type of item. Great for things you will have a ton of and want easy access to (or discard of). These can be crafted in variants with additional drawers to store a few different stacks in one block, and can be upgraded to hold more stacks worth of items."]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.5d
+			id: "15C8700EFE52353A"
+			tasks: [{
+				id: "6FC7DD9A5732C9B4"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+			rewards: [{
+				id: "36BF6F96178BAC7D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Cloud Storage"
+			icon: "cloudstorage:cloud_chest"
+			x: 0.0d
+			y: -2.0d
+			description: ["Cloud Storage can take some time to acquire the required materials, however it offers a very flexible storage system. Want one large storage network? Several smaller ones? Several large, seperate networks? Cloud storage can do it all - just be sure you aren't afraid of heights!"]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.5d
+			id: "6578C82B120DE0EA"
+			tasks: [{
+				id: "7F2BD0E1BBFBF5C1"
+				type: "checkmark"
+				title: "Read"
+			}]
+			rewards: [{
+				id: "6529B7B6EEBBFEB9"
+				type: "item"
+				item: "cloudstorage:guide_book"
+			}]
+		}
+		{
+			title: "Tom's Storage Network"
+			x: 0.0d
+			y: 2.0d
+			description: ["Place next to a storage block to connect it and all adjacent storage blocks together. This can connect even large groups of chests together into one inventory. A storage terminal must be placed on this block to access the storage."]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.5d
+			id: "71F911019FA724FB"
+			tasks: [{
+				id: "583BC6A8829631C2"
+				type: "item"
+				item: "toms_storage:ts.inventory_connector"
+			}]
+			rewards: [{
+				id: "776BAFEF12E6508A"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: ["Place on an Inventory Connector to access all connected storage from one location in a single, sortable menu."]
+			dependencies: ["71F911019FA724FB"]
+			id: "08D754ABA22B89BB"
+			tasks: [{
+				id: "2E647A30434F65D6"
+				type: "item"
+				item: "toms_storage:ts.storage_terminal"
+			}]
+			rewards: [{
+				id: "521520007F43AF23"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			description: ["An upgraded storage terminal which includes a built-in crafting grid."]
+			dependencies: ["08D754ABA22B89BB"]
+			id: "7EF502D556B556E1"
+			tasks: [{
+				id: "76463FBDA1AB67BF"
+				type: "item"
+				item: "toms_storage:ts.crafting_terminal"
+			}]
+			rewards: [{
+				id: "4121A54DA7D89B00"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			description: ["Using inventory cables and inventory cable connectors, you can connect multiple networks together, or connect components of your network over longer distances. A great tool for setting up a large storage room in a designated area, and connecting it to a terminal located in your main base."]
+			dependencies: ["7EF502D556B556E1"]
+			id: "7A28E7CD5DE75D2B"
+			tasks: [
+				{
+					id: "70B5FD790C033C24"
+					type: "item"
+					item: "toms_storage:ts.inventory_cable"
+				}
+				{
+					id: "27C223E20E601FF9"
+					type: "item"
+					item: "toms_storage:ts.inventory_cable_connector"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "33A708BBC78E976A"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			description: ["Use to access your storage network within a 16 block radius"]
+			dependencies: ["7A28E7CD5DE75D2B"]
+			id: "4FCCD804F4694A88"
+			tasks: [{
+				id: "4C5195F8709CF9D2"
+				type: "item"
+				item: "toms_storage:ts.wireless_terminal"
+			}]
+			rewards: [
+				{
+					id: "0AC20662B141DB51"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 5
+				}
+				{
+					id: "6CEAFDC826B041C0"
+					type: "item"
+					item: "plushies:cow"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			description: ["All that glitters is storage"]
+			dependencies: ["08CB33FC1D450DE9"]
+			id: "1DE5F73222B0353C"
+			tasks: [{
+				id: "4914202228ECE9EE"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+			rewards: [{
+				id: "1B8360CCFF58107A"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			description: ["That's a lotta' storage!"]
+			dependencies: ["1DE5F73222B0353C"]
+			id: "399C2ED66FF377FD"
+			tasks: [{
+				id: "4A6F742CDB89CEF9"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [{
+				id: "1B0DE9132B26A90B"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 5
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			description: ["Higher capacity, and tough as nails."]
+			dependencies: ["399C2ED66FF377FD"]
+			id: "1900345A01C9935A"
+			tasks: [{
+				id: "287A90C216F6B3E8"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+			rewards: [{
+				id: "44A28DE59A0BFB52"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 5
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			description: ["A decorative chest, see the items inside!"]
+			dependencies: ["1900345A01C9935A"]
+			id: "245146C538723D11"
+			tasks: [{
+				id: "21E2A45B22E5343E"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+			rewards: [
+				{
+					id: "46881D65781AEB0D"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 5
+				}
+				{
+					id: "5E5176719B5F8AF0"
+					type: "item"
+					item: "plushies:bee"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["To get started with cloud storage, you will need balloon pieces to craft a balloon, and cloud blocks. Baloon mobs spawn above Y=196, as do cloud mobs, so you better find some mountains! It is not a bad idea to build a platform in the air to fight them more easily, and a bow certainly helps. Baloons drop pieces which can be crafted with string to make a balloon, and cloud mobs drop cloud blocks, which can be used to craft cloud chests. "]
+			dependencies: ["6578C82B120DE0EA"]
+			id: "34A5470646A4CE63"
+			tasks: [{
+				id: "24C6540B62EB8438"
+				type: "item"
+				item: "cloudstorage:balloon"
+			}]
+			rewards: [{
+				id: "381FB78BCB25EFCD"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			description: ["The last step to set up your cloud storage is to place a cloud chest anywhere directly beneath a sky block (not indoors!). Right-click it with a balloon, and its inventory will sync-up with all cloud chests of the same balloon color. Additional chests of the same balloon color will all connect to the same storage network."]
+			dependencies: ["34A5470646A4CE63"]
+			id: "5209737ECC6EC599"
+			tasks: [{
+				id: "7FF35AF151CD8866"
+				type: "item"
+				item: "cloudstorage:cloud_chest"
+			}]
+			rewards: [{
+				id: "4F9D60196696D136"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			description: ["Static Balloons and Static Chests can be used to create a cloud inventory that can be accessed by all players. This is great for groups looking to share inventories. Static cloud blocks can be obtained by fighting cloud mobs during thunder storms. Place a static cloud block and right-click it with a balloon to charge the balloon. Craft the static cloud chest from static cloud blocks."]
+			dependencies: ["5209737ECC6EC599"]
+			id: "34ABF0F5257443E6"
+			tasks: [
+				{
+					id: "33C6E3483B23CF98"
+					type: "item"
+					item: {
+						id: "cloudstorage:balloon"
+						Count: 1b
+						tag: {
+							static: 1b
+						}
+					}
+				}
+				{
+					id: "678B002C4D1F8897"
+					type: "item"
+					item: "cloudstorage:static_cloud_chest"
+				}
+			]
+			rewards: [
+				{
+					id: "0479D333C18E8CDD"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 10
+				}
+				{
+					id: "34B962F118D385CB"
+					type: "item"
+					item: "plushies:dolphin"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["15C8700EFE52353A"]
+			id: "6FD59A149FE6F418"
+			tasks: [{
+				id: "3E3F18BC2D0ABD54"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [{
+				id: "6B0892B3374394B0"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["6FD59A149FE6F418"]
+			id: "23DC4D6E70E1091B"
+			tasks: [{
+				id: "7A41BCB24FB670A9"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "0D98ACD81721DA04"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			dependencies: ["23DC4D6E70E1091B"]
+			id: "10F1F3EE7889A104"
+			tasks: [{
+				id: "0164BB76D1530FF3"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+			rewards: [{
+				id: "3A6CDC0B496DDE3A"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["10F1F3EE7889A104"]
+			id: "4D9FF3E44947668F"
+			tasks: [{
+				id: "1D5A13D0B94B358C"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+			rewards: [{
+				id: "0B6CB1C244B83877"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			dependencies: ["4D9FF3E44947668F"]
+			id: "7EA6B2AC631D999B"
+			tasks: [{
+				id: "7ECEED4FDCDC4207"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "4FEECDB57A7D0881"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 5
+				}
+				{
+					id: "10676960285162DE"
+					type: "item"
+					item: "plushies:cat"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["6FD59A149FE6F418"]
+			id: "5D0AAAB1C81D93FE"
+			tasks: [{
+				id: "5B08046B1D94ED72"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+			rewards: [{
+				id: "285FE0FC1227A653"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["6FD59A149FE6F418"]
+			id: "41BD563E10B1AB25"
+			tasks: [{
+				id: "753B857BD925D870"
+				type: "item"
+				item: "storagedrawers:fill_level_upgrade"
+			}]
+			rewards: [{
+				id: "4F9606161F063677"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Storage Master"
+			icon: {
+				id: "enigmaticlegacy:astral_dust"
+				Count: 1b
+				tag: {
+					display: {
+						Lore: [
+							"{\"text\":\"§bCurrency used to purchase\"}"
+							"{\"text\":\"§brare items from the Black Market.\"}"
+							"{\"text\":\"§bThe Black Market can be found\"}"
+							"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+						]
+						Name: "{\"text\":\"§d§lAstral Dust\"}"
+					}
+				}
+			}
+			x: -2.25d
+			y: 2.25d
+			description: [
+				"You've mastered the art of putting your things away"
+				"Required: Complete all quests in this section."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"245146C538723D11"
+				"4FCCD804F4694A88"
+				"7EA6B2AC631D999B"
+				"34ABF0F5257443E6"
+				"7CE65DEF92EE89EA"
+			]
+			size: 1.5d
+			id: "62D750A875D37317"
+			tasks: [{
+				id: "6B49177493AE7A3F"
+				type: "checkmark"
+				title: "Claim Reward"
+			}]
+			rewards: [
+				{
+					id: "1AC22FC0D251AC16"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:astral_dust"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§bCurrency used to purchase\"}"
+									"{\"text\":\"§brare items from the Black Market.\"}"
+									"{\"text\":\"§bThe Black Market can be found\"}"
+									"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+								]
+								Name: "{\"text\":\"§d§lAstral Dust\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "0067DDB211A2754C"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:strong_knowledge"
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: ["Press B to open (by default). Can be equipped to your backpack equipment slot in the Curios menu."]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.2d
+			id: "31FF51CECF71BD12"
+			tasks: [{
+				id: "18D2ED50E69DD56E"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "33C3CA210D92BE3E"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["31FF51CECF71BD12"]
+			id: "50C80EA544AF9A52"
+			tasks: [{
+				id: "5AF5BA1AFCB59BC6"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "12A6A259EDEFD954"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["50C80EA544AF9A52"]
+			id: "0B6F5DE85FF4D3D7"
+			tasks: [{
+				id: "4D5A2790DD9BA7A3"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "2FBDBD56D6BBE45A"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			dependencies: ["0B6F5DE85FF4D3D7"]
+			id: "403035C8DC095962"
+			tasks: [{
+				id: "001E09CBCD7C498F"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "4FC8E545669C7EAD"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 5
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			dependencies: ["403035C8DC095962"]
+			id: "7CE65DEF92EE89EA"
+			tasks: [{
+				id: "65F64EF3ED2783F3"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [
+				{
+					id: "7B97A38BEC92C979"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 10
+				}
+				{
+					id: "383A059F75710850"
+					type: "item"
+					item: "plushies:frog"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

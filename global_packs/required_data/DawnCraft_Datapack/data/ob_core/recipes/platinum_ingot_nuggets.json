@@ -1,0 +1,42 @@
+{
+  "group": "platinum_ingot",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+        "tag": "forge:ob_materials/platinum_nugget"
+    },
+    "1": {
+        "tag": "forge:ob_materials/platinum_nugget"
+    },
+    "2": {
+        "tag": "forge:ob_materials/platinum_nugget"
+    },
+    "3": {
+        "tag": "forge:ob_materials/platinum_nugget"
+    },
+    "4": {
+        "tag": "forge:ob_materials/platinum_nugget"
+    },
+    "5": {
+        "tag": "forge:ob_materials/platinum_nugget"
+    },
+    "6": {
+        "tag": "forge:ob_materials/platinum_nugget"
+    },
+    "7": {
+        "tag": "forge:ob_materials/platinum_nugget"
+    },
+    "8": {
+        "tag": "forge:ob_materials/platinum_nugget"
+    }
+  },
+  "result": {
+    "item": "ob_core:platinum_ingot",
+    "count": 1
+  }
+}

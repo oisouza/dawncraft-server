@@ -1,0 +1,10 @@
+{
+	"type": "trident",
+	"attributes": {
+		"common": {
+  			"impact": 1.3,
+			"max_strikes": 0,
+                  "speed_bonus": -0.0
+		}
+	}
+}

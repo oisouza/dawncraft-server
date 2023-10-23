@@ -1,0 +1,20 @@
+{
+    "name": "villager",
+    "default_reputation": 0,
+    "lower_reputation_bound": -2,
+    "upper_reputation_bound": 0,
+    "currency": "minecraft:emerald",
+    "weighted_murder": 2,
+    "weighted_looting": 1,
+    "weighted_fleeing": 0,
+    "members": [
+        "minecraft:villager",
+        "guardvillagers:guard",
+        "minecraft:iron_golem",
+        "minecraft:wandering_trader",
+	"quest_giver:quest_villager",
+	"quest_giver:quest_guard_villager"
+    ],
+    "enemies": [
+    ]
+}

@@ -1,0 +1,137 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 2.0,
+				"max": 6.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2.0,
+								"max": 7.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5.0,
+								"max": 8.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:bamboo"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 3.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:sugar_cane"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4.0,
+								"max": 6.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:vine"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 16,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3.0,
+								"max": 7.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:peony"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4.0,
+								"max": 6.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:flower_pot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						},
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					],
+					"name": "minecraft:leather_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:water_bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 10,
+							"treasure": true
+						}
+					],
+					"name": "minecraft:book"
+				}
+			]
+		}
+	]
+}

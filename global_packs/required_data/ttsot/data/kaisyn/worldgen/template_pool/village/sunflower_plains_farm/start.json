@@ -1,0 +1,15 @@
+{
+  "name": "kaisyn:village/sunflower_plains_farm/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sunflower_plains_farm/start",
+        "processors": "kaisyn:street_farm"
+      }
+    }
+  ]
+}

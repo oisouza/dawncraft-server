@@ -1,0 +1,42 @@
+{
+  "common": [
+    {
+      "entity": "minecraft:zombie",
+      "weight": 2
+    },
+    {
+      "entity": "minecraft:skeleton",
+      "weight": 2
+    },
+    {
+      "entity": "minecraft:spider"
+    },
+    {
+      "entity": "minecraft:cave_spider"
+    },
+    {
+      "entity": "minecraft:stray",
+      "weight": 2
+    },
+    {
+      "entity": "simple_mobs:imp_melee"
+    },
+    {
+      "entity": "simple_mobs:imp_range"
+    }
+  ],
+  "rare": [
+    {
+      "entity": "minecraft:creeper"
+    },
+    {
+      "entity": "minecraft:enderman"
+    },
+    {
+      "entity": "minecraft:silverfish"
+    },
+    {
+      "entity": "minecraft:wither_skeleton"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 4.0,
+				"max": 7.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5.0,
+								"max": 32.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:cobblestone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:cooked_cod"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5.0,
+								"max": 7.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:lily_pad"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:coal_ore"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"name": "minecraft:redstone_ore"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 17,
+					"name": "minecraft:redstone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [],
+					"name": "minecraft:water_bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:melon_slice"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:honey_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4.0,
+								"max": 6.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:stone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:pumpkin"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_horse_armor"
+				}
+			]
+		}
+	]
+}

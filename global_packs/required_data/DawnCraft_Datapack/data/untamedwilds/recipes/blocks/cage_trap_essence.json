@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xyx",
+    "#x#",
+    "x#x"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "x": {
+      "item": "paraglider:essence"
+    },
+    "y": {
+      "tag": "minecraft:trapdoors"
+    }
+  },
+  "result": {
+    "item": "untamedwilds:trap_cage",
+    "count": 1
+  }
+}

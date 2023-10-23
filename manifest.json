@@ -1,0 +1,64 @@
+{
+  "minecraft": {
+    "version": "1.18.2",
+    "modLoaders": [
+      {
+        "id": "forge-40.2.0",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Better Dawn Craft v1.0.5",
+  "version": "v1.0.5",
+  "author": "",
+  "files": [
+    {
+      "projectID": 308989,
+      "fileID": 3650485,
+      "required": true
+    },
+    {
+      "projectID": 291874,
+      "fileID": 3693807,
+      "required": true
+    },
+    {
+      "projectID": 228756,
+      "fileID": 3966367,
+      "required": true
+    },
+    {
+      "projectID": 690971,
+      "fileID": 4565982,
+      "required": true
+    },
+    {
+      "projectID": 378609,
+      "fileID": 4473330,
+      "required": true
+    },
+    {
+      "projectID": 336184,
+      "fileID": 4074264,
+      "required": true
+    },
+    {
+      "projectID": 237307,
+      "fileID": 4016730,
+      "required": true
+    },
+    {
+      "projectID": 314002,
+      "fileID": 4400658,
+      "required": true
+    },
+    {
+      "projectID": 223852,
+      "fileID": 3807626,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}

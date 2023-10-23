@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "goblinsanddungeons:large_goblin_camp",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"salt": 284728103,
+		"spacing": 34,
+		"separation": 10,
+		"type": "minecraft:random_spread"
+	}
+}

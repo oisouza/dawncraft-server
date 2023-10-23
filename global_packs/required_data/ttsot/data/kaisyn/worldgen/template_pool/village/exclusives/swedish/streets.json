@@ -1,0 +1,51 @@
+{
+  "name": "kaisyn:village/exclusives/swedish/streets",
+  "fallback": "kaisyn:village/exclusives/swedish/terminators",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/exclusives/swedish/streets/crossroad_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/exclusives/swedish/streets/straight_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/exclusives/swedish/streets/straight_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/exclusives/swedish/streets/straight_3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "kaisyn:village/exclusives/swedish/streets/turn_1",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

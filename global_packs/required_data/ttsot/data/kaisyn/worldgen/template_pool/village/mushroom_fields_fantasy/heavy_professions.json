@@ -1,0 +1,42 @@
+{
+  "name": "kaisyn:village/mushroom_fields_fantasy/heavy_professions",
+  "fallback": "kaisyn:village/mushroom_fields_fantasy/heavy_professions",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/professions/armorer",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/professions/mason",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/professions/toolsmith",
+        "processors": "kaisyn:street_mushroom"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/mushroom_fields_fantasy/professions/weaponsmith",
+        "processors": "kaisyn:street_mushroom"
+      }
+    }
+  ]
+}

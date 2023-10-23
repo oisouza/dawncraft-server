@@ -1,0 +1,55 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "reagent": [
+    {
+      "item": "ars_nouveau:drygmy_shard"
+    }
+  ],
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "minecraft:fishes"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:wheat"
+      }
+    },
+    {
+      "item": {
+        "item": "simple_mobs:imp_scale"
+      }
+    },
+    {
+      "item": {
+        "item": "simple_mobs:imp_scale"
+      }
+    },
+    {
+      "item": {
+        "item": "simple_mobs:imp_scale"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gems/source"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gems/source"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gems/source"
+      }
+    }
+  ],
+  "output": {
+    "item": "ars_nouveau:drygmy_charm"
+  },
+  "sourceCost": 0,
+  "keepNbtOfReagent": false
+}

@@ -1,0 +1,15 @@
+{
+  "name": "kaisyn:village/exclusives/mediterranean/town_centre",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/exclusives/mediterranean/town_centre/the_cathedral",
+        "processors": "kaisyn:street_mediterranean",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

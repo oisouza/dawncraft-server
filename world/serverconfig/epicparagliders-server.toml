@@ -1,0 +1,42 @@
+
+[Stamina]
+	#How much more/less stamina is consumed from all melee attacks.
+	#Range: 0.0 ~ 10.0
+	baseMeleeStaminaConsumption = 1.0
+	#How much more/less stamina is consumed from daggers (stacks with baseMeleeStaminaConsumption).
+	#Range: 0.0 ~ 10.0
+	daggerStaminaConsumption = 1.0
+	#How much more/less stamina is consumed from swords (stacks with baseMeleeStaminaConsumption)..
+	#Range: 0.0 ~ 10.0
+	swordStaminaConsumption = 0.8
+	#How much more/less stamina is consumed from longswords (stacks with baseMeleeStaminaConsumption).
+	#Range: 0.0 ~ 10.0
+	longSwordConsumption = 0.9
+	#How much more/less stamina is consumed from greatswords (stacks with baseMeleeStaminaConsumption).
+	#Range: 0.0 ~ 10.0
+	greatSwordStaminaConsumption = 0.7
+	#How much more/less stamina is consumed from katanas (stacks with baseMeleeStaminaConsumption).
+	#Range: 0.0 ~ 10.0
+	katanaStaminaConsumption = 0.9
+	#How much more/less stamina is consumed from tachis (stacks with baseMeleeStaminaConsumption).
+	#Range: 0.0 ~ 10.0
+	tachiStaminaConsumption = 0.9
+	#How much more/less stamina is consumed from spears (stacks with baseMeleeStaminaConsumption).
+	#Range: 0.0 ~ 10.0
+	spearStaminaConsumption = 0.9
+	#How much more/less stamina is consumed from knuckles (stacks with baseMeleeStaminaConsumption).
+	#Range: 0.0 ~ 10.0
+	knuckleStaminaConsumption = 1.0
+	#How much more/less stamina is consumed from axes (stacks with baseMeleeStaminaConsumption).
+	#Range: 0.0 ~ 10.0
+	axeStaminaConsumption = 0.9
+	#How much more/less stamina is consumed from ranged attacks with bows or crossbows.
+	#Range: 0.0 ~ 10.0
+	baseRangedStaminaConsumption = 1.0
+	#How much more/less stamina is consumed from using block skills.
+	#Range: 0.0 ~ 10.0
+	baseBlockStaminaConsumption = 0.9
+	#How much more/less stamina is consumed from dodge skills.
+	#Range: 0.0 ~ 10.0
+	baseDodgeStaminaConsumption = 1.0
+

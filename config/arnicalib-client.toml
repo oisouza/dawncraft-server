@@ -1,0 +1,6 @@
+
+[advanced_tooltip]
+	enable = true
+	only_on_debug = true
+	only_on_shift = false
+

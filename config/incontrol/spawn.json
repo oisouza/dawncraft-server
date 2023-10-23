@@ -1,0 +1,333 @@
+[
+	{
+  		"mob":  ["bloodandmadness:silverbeast", "bloodandmadness:brainsucker", "dannys_expansion:cursed_skull", "dannys_expansion:hollow_armor", "dannys_expansion:ice_elemental", "bloodandmadness:beast_patient", "bloodandmadness:cloaked_beast_patient"],
+  		"incontrol": true,
+  		"mintime": 0,
+  		"maxtime": 12000,
+ 		 "result": "deny"
+	},
+	{
+  		"mob":  ["dannys_expansion:desertic_slime", "dannys_expansion:magma_slime", "dannys_expansion:mundane_slime","dannys_expansion:foamcaster", "dannys_expansion:foamspring", "dannys_expansion:floam"],
+  		"incontrol": true,
+  		"mintime": 1000,
+  		"maxtime": 10000,
+		"random": 0.98,
+ 		 "result": "deny"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mob": ["dannys_expansion:foamcaster", "dannys_expansion:foamspring", "dannys_expansion:floam", "bloodandmadness:silverbeast", "bloodandmadness:brainsucker", "dannys_expansion:hollow_armor", "dannys_expansion:squig", "dannys_expansion:ice_elemental"],
+		"minlight": 7,
+		"result": "deny"
+	},
+	{
+		"mob": ["dannys_expansion:desertic_slime", "dannys_expansion:magma_slime", "dannys_expansion:mundane_slime", "dannys_expansion:squig", "dannys_expansion:ice_elemental", "dannys_expansion:cursed_skull", "simple_mobs:dark_werewolf", "simple_mobs:graywerewolf"],
+		"seesky": false,
+		"result": "deny"
+	},
+	{
+		"mob": ["dannys_expansion:hollow_armor", "dannys_expansion:desertic_slime", "dannys_expansion:magma_slime", "dannys_expansion:mundane_slime"],
+		"random": 0.7,
+		"result": "deny"
+	},
+	{
+		"mob": ["bloodandmadness:beast_patient", "bloodandmadness:cloaked_beast_patient", "bloodandmadness:ashen_blood_beast_patient"],
+		"random": 0.88,
+		"result": "deny"
+	},
+	{
+		"mob": "bloodandmadness:silverbeast",
+		"mincount": 4,
+		"result": "deny"
+	},
+	{
+		"mob": "monsterplus:mother_lava_squid",
+		"mincount": 3,
+		"result": "deny"
+	},
+	{
+		"mob": "monsterplus:lava_squid",
+		"mincount": 13,
+		"result": "deny"
+	},
+	{
+		"mob": "monsterplus:lava_squid",
+		"random": 0.96,
+		"result": "deny"
+	},
+	{
+		"mob": "simple_mobs:cave_blockhead",
+		"minheight": 63,
+		"result": "deny"
+	},
+	{
+		"mob": "dannys_expansion:squig",
+		"incontrol": true,
+		"maxlight": 2,
+		"random": 0.2,
+		"result": "allow"
+	},
+	{
+		"mob": ["mutantmonsters:mutant_zombie", "mutantmonsters:mutant_creeper", "mutantmonsters:mutant_enderman", "mutantmonsters:mutant_skeleton"],
+		"gamestage": "guildmaster5",
+		"result": "allow"
+	},	
+	{
+		"mob": ["mutantmonsters:mutant_zombie", "mutantmonsters:mutant_creeper", "mutantmonsters:mutant_enderman", "mutantmonsters:mutant_skeleton"],
+		"result": "deny"
+	},		
+	{
+		"mob": ["dannys_expansion:hollow_armor", "dannys_expansion:ice_elemental", "dannys_expansion:cursed_skull"],
+		"gamestage": "nether",
+		"maxlight": 2,
+		"random": 0.5,
+		"result": "allow"
+	},
+	{
+		"mod": "undead_revamp2",
+		"gamestage": "nether",
+  		"mintime": 16000,
+  		"maxtime": 24000,		
+		"random": 0.1,		
+		"maxlight": 2,		
+		"result": "allow"
+	},
+	{
+		"mod": "undead_revamp2",
+		"result": "deny"
+	},
+	{
+		"mob": ["dannys_expansion:hollow_armor", "dannys_expansion:squig", "dannys_expansion:ice_elemental", "dannys_expansion:cursed_skull"],
+		"incontrol": true,
+		"result": "deny"
+	},
+	{
+		"mob": "simple_mobs:cave_golem",
+		"minheight": 40,
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mob": ["bloodandmadness:brainsucker", "bloodandmadness:silverbeast"],
+		"gamestage": "bloodborne",
+		"result": "allow"
+	},
+	{
+		"mob": ["bloodandmadness:silverbeast", "bloodandmadness:brainsucker"],
+		"result": "deny"
+	},
+	{
+		"mob": ["dannys_expansion:foamcaster", "dannys_expansion:foamspring", "dannys_expansion:floam"],
+		"maxlight": 3,
+		"incontrol": true,
+		"structure": "dungeons_arise:giant_mushroom",
+		"result": "allow"
+	},
+	{
+		"mob": ["dannys_expansion:foamcaster", "dannys_expansion:foamspring", "dannys_expansion:floam"],
+		"incontrol": true,
+		"structure": "dungeons_arise:mushroom_house",
+		"result": "allow"
+	},
+	{
+		"mob": ["dannys_expansion:foamcaster", "dannys_expansion:foamspring", "dannys_expansion:floam"],
+		"incontrol": true,
+		"structure": "dungeons_arise:mushroom_mines",
+		"result": "allow"
+	},
+	{
+		"mob": ["dannys_expansion:foamcaster", "dannys_expansion:foamspring", "dannys_expansion:floam"],
+		"incontrol": true,
+		"structure": "dungeons_arise:mushroom_village",
+		"result": "allow"
+	},
+	{
+		"mob": ["dannys_expansion:foamcaster", "dannys_expansion:foamspring", "dannys_expansion:floam"],
+		"random": 0.2,
+		"incontrol": true,
+		"result": "allow"
+	},
+	{
+		"mob": ["dannys_expansion:foamie", "dannys_expansion:foamcaster", "dannys_expansion:foamspring", "dannys_expansion:floam"],
+		"incontrol": true,
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:overworld",
+		"mob": ["dannys_expansion:desertic_slime", "dannys_expansion:magma_slime", "dannys_expansion:mundane_slime", "simple_mobs:skeleton_demon", "simple_mobs:half_wither_demon", "simple_mobs:wither_demon"],
+		"maxlight": 7,
+		"result": "allow"
+	},
+	{
+		"dimension": ["minecraft:the_end"],
+		"mob": ["simple_mobs:half_wither_demon", "simple_mobs:skeleton_demon"],
+		"result": "deny"
+	},
+	{
+		"dimension": ["minecraft:the_nether", "minecraft:the_end"],
+		"mob": ["simple_mobs:minotaur", "simple_mobs:caped_minotaur", "simple_mobs:vampire", "simple_mobs:shade", "simple_mobs:cave_blockhead", "simple_mobs:cave_golem"],
+		"result": "deny"
+	},
+	{
+		"dimension": ["minecraft:overworld", "minecraft:the_end"],
+		"mob": "simple_mobs:tiny_necromancer",
+		"result": "deny"
+	},
+	{
+		"mob": ["dannys_expansion:desertic_slime", "dannys_expansion:magma_slime", "dannys_expansion:mundane_slime"],
+		"result": "deny"
+	},
+	{
+		"mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:enderman"],
+		"damagemultiply": 1.2,
+		"onjoin": "true"		
+	},
+	{
+		"mob": "minecraft:vindicator",
+		"damagemultiply": 0.75,
+		"onjoin": "true"		
+	},	
+	{
+		"mob": "minecraft:iron_golem",
+		"damagemultiply": 0.4,		
+		"onjoin": "true"
+	},	
+	{
+		"mob": "dannys_expansion:hollow_armor",
+		"onjoin": "true",
+    	"result": "allow",
+		"healthmultiply": 0.7
+	},
+	{
+		"mob": ["bloodandmadness:brainsucker", "dannys_expansion:squig", "dannys_expansion:cursed_skull", "dannys_expansion:ice_elemental"],
+		"onjoin": "true",
+    		"result": "allow",
+		"healthmultiply": 0.7
+	},
+	{
+		"mob": "goblinsanddungeons:garch",
+		"result": "default",
+		"onjoin": "true",
+		"nbt": {
+			"Attributes": [{
+				"Base": 0.23,
+				"Modifiers": [{
+					"Operation": 2,
+					"Amount": -0.7,
+					"Name": "effect.moveSlowdown 0"
+				}],
+				"Name": "generic.movementSpeed"
+			}]
+		}
+	},
+	{
+		"mob": ["guardvillagers:guard"],
+		"onjoin": "true",
+		"healthmultiply": 3,
+		"damagemultiply": 2.5
+	},
+	{
+		"mob": "monsterplus:crystal_zombie",
+		"onjoin": "true",
+		"armorhelmet": "simple_mobs:crystal_helmet",
+		"armorchest": "simple_mobs:crystal_chestplate",
+		"armorlegs": "simple_mobs:crystal_leggings"
+	},
+	{
+		"mob": "simple_mobs:knight_4",
+		"onjoin": "true",
+		"armorhelmet": "magistuarmory:armet",
+		"armorchest": "magistuarmory:wingedhussar_chestplate",
+		"armorlegs": "magistuarmory:knight_leggings",
+		"armorboots": "magistuarmory:ceremonial_boots",
+		"helditem": "magistuarmory:netherite_katzbalger",
+		"offhanditem": "magistuarmory:netherite_katzbalger"
+	},
+	{
+		"mob": "monsterplus:overgrown_skeleton",
+		"onjoin": "true",
+		"armorhelmet": "simple_mobs:overgrown_helmet",
+		"armorchest": "simple_mobs:overgrown_chestplate"
+	},
+  	{
+  		"mod": ["dannys_expansion","bloodandmadness"],
+		"incontrol": true,
+  		"result": "deny"
+  	},
+  	{
+  		"mod": "orcz",
+		"dimension": ["minecraft:the_nether", "minecraft:the_end"],
+		"onjoin": "true",
+  		"result": "deny"
+  	},
+  {
+    "dimension":"minecraft:overworld",
+    "mob": "aquamirae:anglerfish",
+    "biome": ["minecraft:frozen_ocean", "minecraft:deep_frozen_ocean"],
+    "maxcount": {
+      "amount": 15,
+      "perplayer": true
+     },
+    "result": "default"
+  },
+  {
+    "mob": "aquamirae:anglerfish",
+    "result": "deny"
+  },
+  {
+    "dimension":"minecraft:overworld",
+    "mob": "aquamirae:spinefish",
+    "biome": ["minecraft:frozen_ocean", "minecraft:deep_frozen_ocean"],
+    "maxcount": {
+      "amount": 24,
+      "perplayer": true
+     },
+    "result": "default"
+  },
+  {
+    "mob": "aquamirae:spinefish",
+    "result": "deny"
+  },
+  {
+    "dimension":"minecraft:overworld",
+    "mob": "aquamirae:eel",
+    "biome": ["minecraft:frozen_ocean", "minecraft:deep_frozen_ocean"],
+    "random": 0.5,
+    "maxcount": {
+      "amount": 2,
+      "perplayer": true
+     },
+    "result": "default"
+  },
+  {
+    "mob": "aquamirae:eel",
+    "result": "deny"
+  },
+  {
+    "mob": "aquamirae:maw",
+    "dimension": "minecraft:overworld",
+    "mincount": {
+      "amount": 15,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "aquamirae:golden_moth",
+    "dimension": "minecraft:overworld",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "aquamirae:tortured_soul",
+    "dimension": "minecraft:overworld",
+    "mincount": {
+      "amount": 15,
+      "perplayer": true
+    },
+    "result": "deny"
+  }
+]

@@ -1,0 +1,8 @@
+{"type": "dagger", 
+ "attributes": 
+    {"common": 
+       {"impact": 0.4, 
+        "armor_negation": 1.5, 
+         "max_strikes": 1}
+    }
+}

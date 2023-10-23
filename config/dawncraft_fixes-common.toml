@@ -1,0 +1,79 @@
+
+#Dual Greatsword
+[dual_greatsword]
+
+	#GREATSWORD_TWOHAND_AUTO
+	[dual_greatsword.greatsword_twohand_auto]
+
+		[dual_greatsword.greatsword_twohand_auto.1]
+			#Range: 0.0 ~ 100.0
+			damage = 1.0
+			#Range: 0.0 ~ 100.0
+			attackSpeed = 2.0
+
+		[dual_greatsword.greatsword_twohand_auto.2]
+			#Range: 0.0 ~ 100.0
+			damage = 1.0
+			#Range: 0.0 ~ 100.0
+			attackSpeed = 2.0
+
+		[dual_greatsword.greatsword_twohand_auto.3]
+			#Range: 0.0 ~ 100.0
+			damage = 1.0
+			#Range: 0.0 ~ 100.0
+			attackSpeed = 2.0
+
+	#GREATSWORD_DUAL_AUTO
+	[dual_greatsword.greatsword_dual_auto]
+
+		[dual_greatsword.greatsword_dual_auto.1]
+			#Range: 0.0 ~ 100.0
+			damage = 0.550000011920929
+			#Range: 0.0 ~ 100.0
+			damage1 = 0.6499999761581421
+			#Range: 0.0 ~ 100.0
+			attackSpeed = 1.0499999523162842
+
+		[dual_greatsword.greatsword_dual_auto.2]
+			#Range: 0.0 ~ 100.0
+			damage = 0.800000011920929
+			#Range: 0.0 ~ 100.0
+			attackSpeed = 1.0499999523162842
+
+		[dual_greatsword.greatsword_dual_auto.3]
+			#Range: 0.0 ~ 100.0
+			damage = 0.699999988079071
+			#Range: 0.0 ~ 100.0
+			damage1 = 0.699999988079071
+			#Range: 0.0 ~ 100.0
+			attackSpeed = 1.0499999523162842
+
+		[dual_greatsword.greatsword_dual_auto.4]
+			#Range: 0.0 ~ 100.0
+			damage = 1.399999976158142
+			#Range: 0.0 ~ 100.0
+			attackSpeed = 0.75
+
+	#GREATSWORD_DUAL_DASH
+	[dual_greatsword.greatsword_dual_dash]
+		#Range: 0.0 ~ 100.0
+		damage = 0.20000000298023224
+		#Range: 0.0 ~ 100.0
+		attackSpeed = 1.0499999523162842
+
+	#GREATSWORD_DUAL_AIRSLASH
+	[dual_greatsword.greatsword_dual_airslash]
+		#Range: 0.0 ~ 100.0
+		damage = 1.2000000476837158
+		#Range: 0.0 ~ 100.0
+		attackSpeed = 1.0499999523162842
+
+	#GREATSWORD_DUAL_EARTHQUAKE
+	[dual_greatsword.greatsword_dual_earthquake]
+		#Range: 0.0 ~ 100.0
+		damage = 1.2000000476837158
+		#Range: 0.0 ~ 100.0
+		damage1 = 2.4000000953674316
+		#Range: 0.0 ~ 100.0
+		attackSpeed = 1.0499999523162842
+

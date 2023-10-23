@@ -1,0 +1,10 @@
+{
+  "config": {
+    "start_pool": "kaisyn:village/exclusives/tudor/town_centre",
+    "size": 5
+  },
+  "type": "minecraft:village",
+  "biomes": "#towns_and_towers:exclusives/tudor",
+  "adapt_noise": true,
+  "spawn_overrides": {}
+}

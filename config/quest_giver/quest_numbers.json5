@@ -1,0 +1,151 @@
+{
+  "quests": {
+  
+    // Armorer Quest numbers
+    "armorer_quests": [
+      1,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    
+    // Beekeeper Quest numbers
+    "beekeeper_quests": [ 25 ],
+    
+    // Butcher Quest numbers
+    "butcher_quests": [
+      2,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    
+    // Cartographer Quest numbers
+    "cartographer_quests": [
+      3,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      120
+    ],
+    
+    // Cleric Quest numbers
+    "cleric_quests": [
+      4,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    
+    // Enderian Quest numbers
+    "enderian_quests": [
+      15,
+      91,
+      92,
+      93,
+      94,
+      121
+    ],
+    
+    // Engineer Quest numbers
+    "engineer_quests": [ 16, 96, 97, 98 ],
+    
+    // Farmer Quest numbers
+    "farmer_quests": [
+      5,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    
+    // Fisherman Quest numbers
+    "fisherman_quests": [
+      6,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    
+    // Fletcher Quest numbers
+    "fletcher_quests": [
+      7,
+      61,
+      62,
+      63,
+      64,
+      65
+    ],
+    
+    // Florist Quest numbers
+    "florist_quests": [ 17, 99, 100, 101, 102 ],
+    
+    // Guard Quest numbers
+    "guard_quests": [
+      23,
+      24,
+      108,
+      109,
+      110,
+      111,
+      117
+    ],
+    
+    // Guildmaster Quest numbers
+    "guildmaster_quests": [ 14 ],
+    
+    // Hunter Quest numbers
+    "hunter_quests": [ 18, 103, 104, 124 ],
+    
+    // Leatherworker Quest numbers
+    "leatherworker_quests": [ 8, 66, 67, 68, 69 ],
+    
+    // Librarian Quest numbers
+    "librarian_quests": [
+      9,
+      70,
+      71,
+      72,
+      73,
+      74
+    ],
+    
+    // Mason Quest numbers
+    "mason_quests": [ 10, 75, 76, 77, 78 ],
+    
+    // Miner Quest numbers
+    "miner_quests": [ 19, 112, 118, 25, 123 ],
+    
+    // Netherian Quest numbers
+    "netherian_quests": [ 20, 115, 116 ],
+    
+    // Oceanographer Quest numbers
+    "oceanographer_quests": [ 21, 114, 119, 122 ],
+    
+    // Shepherd Quest numbers
+    "shepherd_quests": [ 11, 79, 80, 81 ],
+    
+    // Toolsmith Quest numbers
+    "toolsmith_quests": [ 12, 83, 84, 85 ],
+    
+    // Weaponsmith Quest numbers
+    "weaponsmith_quests": [ 13, 86, 87, 89 ],
+    
+    // Woodworker Quest numbers
+    "woodworker_quests": [ 22, 105, 106, 107 ]
+  }
+}

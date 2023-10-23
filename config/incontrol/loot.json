@@ -1,0 +1,111 @@
+[
+    {
+	"mob": "simple_mobs:knight_4",
+	"item": "endrem:rogue_eye"
+    },
+    {
+	"mob": "simple_mobs:corrupted_ogre",
+    "player": true,	
+	"item": ["simple_mobs:ogreliver","paraglider:essence"]
+    },
+    {
+	"mob": "simple_mobs:corrupted_ogre",
+	"item": ["endrem:lost_eye"]
+    },	
+    {
+	"mob": "simple_mobs:nine_tails",
+	"item": "endrem:exotic_eye"
+    },
+    {
+	"mob": "simple_mobs:cultist",
+	"item": "simple_mobs:plaguemask_helmet"
+    },
+    {
+	"mob": "guardvillagers:guard",
+	"removeall": true
+    },
+    {
+	"mob": "simple_mobs:skeletonlord",
+	"item": "endrem:magical_eye"
+    },
+    {
+	"mob": "simple_mobs:fire_giant",
+	"item": ["endrem:corrupted_eye", "simple_mobs:giant_seal"]
+    },
+    {
+	"mob": "mowziesmobs:frostmaw",
+	"item": "endrem:cold_eye"
+    },
+    {
+	"mob": "simple_mobs:getsuga_65",
+	"item": "simple_mobs:getsuga_helmet"
+    },
+    {
+	"mob": "simple_mobs:woodenday",
+	"item": "simple_mobs:dweller_core"
+    },
+    {
+	"mob": "simple_mobs:sentinel_knight",
+	"item": ["simple_mobs:sentinelkey","simple_mobs:sentinel_sword"]
+    },
+    {
+	"mob": "simple_mobs:merlin_1306",
+	"item": "simple_mobs:merlinsbroadsword"
+    },
+    {
+	"mob": "simple_mobs:solar_pixel",
+	"item": "simple_mobs:invaders_fang"
+    },
+    {
+	"mob": "simple_mobs:martian",
+	"item": "simple_mobs:gem_item"
+    },
+    {
+	"mob": ["simple_mobs:patronwerewolf","simple_mobs:graywerewolf","simple_mobs:darkwerewolf"],
+	"item": "simple_mobs:lycanthrope_elixir"
+    },
+    {
+	"mob": ["untamedwilds:boar","untamedwilds:hyena"],
+	"random": 0.2,
+	"item": "minecraft:leather"
+    },
+    {
+	"mob": ["bloodandmadness:church_doctor_scythe","bloodandmadness:church_doctor","bloodandmadness:church_doctor_flamesprayer"],
+	"removeall": true
+    },
+    {
+	"mob": "bloodandmadness:gascoigne_beast",
+	"item": "bloodandmadness:weapons/shadow_blade"
+    },
+    {
+	"mob": "simple_mobs:samurai_4",
+	"item": "epicfight:katana"
+    },
+    {
+	"mob": ["bloodandmadness:church_doctor_scythe","bloodandmadness:church_doctor","bloodandmadness:church_doctor_lantern","bloodandmadness:church_doctor_crucifix","bloodandmadness:church_doctor_pistol","bloodandmadness:church_doctor_flamesprayer"],
+	"random": 0.1,
+	"item": "paraglider:essence"
+    },
+    {
+	"mob": "simple_mobs:rat_mid",
+	"random": 0.25,
+	"item": "paraglider:essence"
+    },
+    {
+	"mob": "mutantmonsters:mutant_zombie",
+	"item": "minecraft:rotten_flesh"
+    },
+    {
+	"mob": "minecraft:pillager",
+	"remove": "minecraft:crossbow"
+    },
+    {
+	"mob": "simple_mobs:ogre",
+	"item": ["paraglider:essence","simple_mobs:ogreliver"]
+    },
+    {
+	"mob": "bloodandmadness:brainsucker",
+	"itemcount": "0-2/1-3/2-3",
+	"item": "bloodandmadness:beastblood_clump"
+    }
+]

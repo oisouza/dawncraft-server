@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "goblinsanddungeons:ruined_keep",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"salt": 390128328,
+		"spacing": 55,
+		"separation": 35,
+		"type": "minecraft:random_spread"
+	}
+}

@@ -1,0 +1,28 @@
+Outposts
+========
+*Birch outpost (mushroom roof tower) ispired by Frqnny's villager market from Mo' Structures (https://www.curseforge.com/minecraft/mc-mods/mo-structures)
+*Sparse Jungle and Wooded badlands outposts (bandit camps) originally created by William Wythers, remastered with tent designs inspired by Goldrobin
+*Desert outpost (ruined desert manor) used from patrykss desert house pack and heavily modified by Biban_Auriu (https://www.planetminecraft.com/project/schematic-desert-house-pack-by-patrykss/)
+*Mediterranean (vineyard) and Old Growth Taiga (fortified polish cabin) outposts originally created by Kubek and later remastered by Biban_Auriu
+*Tudor and remastered vanilla outpost heavily inspired by u/swordself_mc and tweaked
+*Flower forest (japaneese watchtower) outpost design made from Cortezerino's tutorial (https://www.youtube.com/watch?v=ByM-Lyeocnw&t=2s) and tweaked
+*Grove (ruined fort), Taiga and Snowy taiga (firewatch tower) outpost designs inspired by blockdown_builds. Part of Kubek's old desert hills outpost was also repurposed and used here.
+*Meadow (Medieval Tower) outpost design used from Novv's medieval building pack and heavily modified (https://www.planetminecraft.com/project/medieval-building-bundle-98192/)
+*Snowy plains (castle) outpost design inspired by Oldshoes's Isolated island fort and heavily modified (https://www.planetminecraft.com/project/isolated-island-fort/)
+*Snowy slopes (church) outpost design used from TheHyperboloid's Small Medieval Church and heavily modified (https://www.planetminecraft.com/project/small-medieval-church-5128506/)
+*Mushroom outpost design used from Dyiing's schematic and heavily modified (https://www.planetminecraft.com/project/mushroom-house-schematic-litematic-fully-furnished/)
+*Desert Oasis outpost (oriental tower) design inspired by _PAV_'s Japarabic Building Bundle (https://www.planetminecraft.com/project/japarabic-houses-building-bundle-by-pav/)
+*Swedish outpost (nordic church) inspired by this https://www.reddit.com/r/Minecraft/comments/rnjppa/i_really_need_to_get_something_better_to_build/ and heavily modified
+*Badlands, Forest, Savanna, Beach and Snowy Beach, Sunflower Plains, Swamp and Alpha Islands outposts, as well as any tweaks/remasters made by Biban_Auriu
+
+Ships
+=====
+*Villager Fleet made by Kubek
+*Pillager Galleon and Flotsam made by William Wythers
+
+Villages
+========
+*Jungle, Badlands, Forest, Wandering trader camp and Wooded Badlands camp  made by William Wythers, later remastere by Biban_Auriu
+*Flower forest village made by Fusion Swarly
+*Swamp, Sunflower Plains, Sparse Jungle, Snowy Slopes / Grove, Old Growth Taiga, Meadow, Mediterranean, Swedish, Alpha Islands, Beach, and Tudor villages made by Kubek
+*Birch Forest and Mushroom village made by Biban_Auriu

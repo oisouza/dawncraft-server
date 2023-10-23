@@ -1,0 +1,9 @@
+{
+  "config": {
+    "start_pool": "kaisyn:other/desert_temple_mimic/start",
+    "size": 7
+  },
+  "type": "minecraft:bastion_remnant", 
+  "spawn_overrides": {},
+  "biomes": "#towns_and_towers:desert"
+}

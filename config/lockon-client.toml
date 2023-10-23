@@ -1,0 +1,16 @@
+
+[client]
+	#Render the lock on icon around the targeted enemy
+	render_icon = false
+	#Color of lock on, #AARRGGBB format
+	color = "#80303030"
+	#Width of triangle
+	#Range: 0 ~ 100
+	range = 24
+	#Width of triangle
+	#Range: 0.0 ~ 10.0
+	width = 1.0
+	#Height of triangle
+	#Range: 0.0 ~ 10.0
+	height = 0.25
+

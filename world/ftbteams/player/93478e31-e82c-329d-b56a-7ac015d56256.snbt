@@ -1,0 +1,17 @@
+{
+	id: "93478e31-e82c-329d-b56a-7ac015d56256"
+	type: "player"
+	player_name: "Eduardo"
+	ranks: {
+		93478e31-e82c-329d-b56a-7ac015d56256: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Eduardo"
+		"ftbteams:description": ""
+		"ftbteams:color": "#7259FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

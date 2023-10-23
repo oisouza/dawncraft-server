@@ -1,0 +1,76 @@
+1.6 - Last 1.18 update
+
+- added birch village inspired by romanian architecture;
+- added oriental-themed outpost to desert oasis (Terralith exclusive);
+- added swedish church outpost to match the swedish village (Terralith exclusive);
+- added missing profession houses to some villages. Now, every village can spawn at least 1 of every profession isntead of being bioem specific;
+- removed gazebo from badlands village and replaced it with a misc_profession piece, as the generation was a bit whacky;
+- toned down the spawn chance of some jungle village pieces;
+- tweaked the town centre for the wooded badlands outpost. Also made the spawn chance for all yurts equal;
+- fixed bug where pillagers would not spawn in some outposts.
+- increased village size for sparse jungle, jungle, meadow, and badlands villages
+- updated credits.txt
+- added changelog history
+
+1.5 - Upgrades, people, upgrades! (part II)
+
+- toned down the spawn chance for the butcher work area in mushroom fields village;
+- fixed broken house pieces for mushroom fields;
+- fixed bug where gazebos found in badlands and mushroom fields would not spawn any workstations;
+- masively overhauled the jungle village with new buidings, roads (that aren't flooded or broken) and loot;
+- upgraded the sunflower plains farm;
+- added Alpha islands outpost (brick pyramid) (Terralith Exclusive);
+- added Alpha Islands village (pre 1.14 village) (Terralith Exclusive).
+
+1.4 - The Rare Structures Update
+
+- added mushroom village to mushroom fields;
+- added fungus lighthouse to mushroom fields;
+- added stone church outpost to snowy slopes;
+- added the correct credits.txt this time;
+*Due to time restraints, the jungle village overhaul has been moved to 1.5
+
+1.3 - The tidying update
+
+- added loot and some minor decor pieces to the wandering trader camp (Terralith exclusive)
+- remastered the teepee village (wooded badlands). The camp now includes actual loot, more detailed yurts and in general more color; (color / colour?)
+- remastered the old growth taiga outpost (the polish cabins). The outpost now consists of a large, single fortified cabin; (also fixed problems related to generation)
+- added ruined shipwreck camp outpost (beach and snowy beach, with a different style for the normal and snowy beach);
+- fixed small bug with armorer house in the pueblo village and villager suffocating in the wall (whoops);
+- fixed bug with carpets being broken and blocks being replaced during generation of certain outposts;
+- added decor to the majority of outposts (most evident in the birch, savanna and swamp outposts) and changed sizes where necessary;
+- switched player-spawned illagers to jigsaws (doesn't affect the average user but makes my job easier for future updates);
+- added extra loot to vineyard outpost (Terralith exclusive );
+- removed stony shore from the list of potential biomes a structure can spawn in (this is mostly for Terralith rather than vanilla);
+- added more bugs to fix later.
+
+1.2 - Upgrades, people, upgrades! (part I)
+
+- remastered the badlands village. The village is now bigger, with more detailed buildings, improved loot and workstations. Go out and explore!
+- some improvements have been made to swamp village and lighthouse structures, to make the structures match better the general mood of the pack;
+- re-added and remastered the wandering trader camp as a Terralith exclusive. The camp will spawn in the desert_oasis biome;
+- fixed minor bug with outpost loot.
+
+1.1 - The Bug Fixing Update
+
+- organized the pack structure a bit;
+- fixed errors that resulted from broken jigsaws, spamming the logs;
+- replaced chest loot found in outposts with vanilla pillager outpost loot (for better mod compatibility);
+- fixed broken chests with set loot and/or no loot in a couple of outposts;
+- fixed wooded badlands outpost using the sparse jungle outpost structure pieces;
+- removed bugged structures and unused template pools where necessary;
+- removed ruined clay structure found in wooded badlands. It has been replaced by the tepee village/camp. Clay structure will be re-added to the pueblo village next update;
+- removed snowy taiga outpost. Now the fire lookout tower will spawn in both normal and snowy taiga biomes;
+- replaced the oak tree in the grove outposts with a spruce tree to better fit in with the surrounding landscape;
+- replaced the more_structures namespace with towns_and_towers namespace.
+
+1.02 - The Terralith Update
+
+- paired the pack with Terralith. Now, structures from the pack will also spawn in the new Terralith biomes, along with the vanilla biomes
+- new exclusive structures spawn if Terralith is installed. They have the *exclusive* prefix when previewing /locate
+
+The pack of course still works on its own, as well as with other structure packs.
+
+1.01 - A new beginning
+
+Initial Release

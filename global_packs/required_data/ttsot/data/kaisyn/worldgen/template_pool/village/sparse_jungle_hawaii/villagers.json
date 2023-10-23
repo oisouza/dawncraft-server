@@ -1,0 +1,33 @@
+{
+  "name": "kaisyn:village/sparse_jungle_hawaii/villagers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/villagers/unemployed",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/villagers/baby",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/villagers/nitwit",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

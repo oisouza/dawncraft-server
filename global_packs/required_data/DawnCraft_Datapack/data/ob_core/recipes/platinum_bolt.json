@@ -1,0 +1,30 @@
+{
+  "group": "platinum_bolt",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "34 ",
+    "  8"
+  ],
+  "key": {
+    "0": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "1": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "3": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "4": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "8": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "ob_core:platinum_bolt",
+    "count": 2
+  }
+}

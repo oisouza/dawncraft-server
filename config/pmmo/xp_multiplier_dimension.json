@@ -1,0 +1,26 @@
+{
+	"all_dimensions":
+	{
+		"engineering": 0,
+		"cooking": 0,
+		"farming": 0,
+		"agility": 0,
+		"archery": 0,
+		"smithing": 0,
+		"alchemy": 0,
+		"swimming": 0,
+		"fishing": 0.0,
+		"magic": 0,
+		"slayer": 0,
+		"excavation": 0,
+		"flying": 0,
+		"taming": 0,
+		"woodcutting": 0,
+		"building": 0,
+		"mining": 0.0,
+		"combat": 0,
+		"endurance": 0,
+		"crafting": 0,
+		"sailing": 0
+	}
+}

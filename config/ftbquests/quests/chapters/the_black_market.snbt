@@ -1,0 +1,2083 @@
+{
+	id: "1314E40604F41EE0"
+	group: ""
+	order_index: 11
+	filename: "the_black_market"
+	title: "The Black Market"
+	icon: "enigmaticlegacy:void_pearl"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to the Black Market"
+			icon: "enigmaticlegacy:void_pearl"
+			x: 1.0d
+			y: -3.0d
+			description: [
+				"Welcome, adventurer, to the Black Market!"
+				""
+				"Here, you will find a variety of rare and powerful items. Some items can be purchased with basic emeralds, however the rarest and most unique items can only be purchased using Astral Dust, obtained by completing quests. There is only a finite amount of Asral Dust in the world, so spend it wisely..."
+			]
+			size: 2.0d
+			id: "25B936BB3B6D664C"
+			tasks: [{
+				id: "09D509552F083231"
+				type: "checkmark"
+				title: "Let's shop!"
+			}]
+			rewards: [{
+				id: "12B1E6AF03AC8BE8"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+		{
+			title: "The Armory"
+			icon: {
+				id: "magistuarmory:wingedhussar_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: -3.75d
+			description: ["Pay to unlock"]
+			dependencies: [
+				"25B936BB3B6D664C"
+				"319778BE2CF7B254"
+			]
+			size: 1.5d
+			id: "14D9672DFCEAB9D3"
+			tasks: [{
+				id: "312414BB5CDE08A2"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 10L
+			}]
+			rewards: [{
+				id: "67B7B773953E2DC1"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+		{
+			title: "The Enchantery"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -2.25d
+			y: -3.75d
+			description: ["Pay to unlock"]
+			dependencies: ["25B936BB3B6D664C"]
+			size: 1.5d
+			id: "6ED08531873B9AD1"
+			tasks: [{
+				id: "2DAC5274649A1D68"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 10L
+			}]
+			rewards: [{
+				id: "7AF01340A04D20A6"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+		{
+			title: "The Jewlery"
+			icon: {
+				id: "enigmaticlegacy:enigmatic_amulet"
+				Count: 1b
+				tag: {
+					AssignedColor: 0.1f
+				}
+			}
+			x: -0.75d
+			y: 0.0d
+			description: ["Pay to unlock"]
+			dependencies: ["25B936BB3B6D664C"]
+			size: 1.5d
+			id: "2A00FD2DAC3D0CF8"
+			tasks: [{
+				id: "7430690763AB35DE"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 25L
+			}]
+			rewards: [{
+				id: "53E93EC3A36851B7"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Enigmatic Amulet (Attack Damage)"
+			icon: {
+				id: "enigmaticlegacy:enigmatic_amulet"
+				Count: 1b
+				tag: {
+					AssignedColor: 0.1f
+				}
+			}
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "3DA74ACB0979C7D3"
+			tasks: [{
+				id: "5E18135D005EB9BC"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§bCurrency used to purchase\"}"
+								"{\"text\":\"§brare items from the Black Market.\"}"
+								"{\"text\":\"§bThe Black Market can be found\"}"
+								"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+							]
+							Name: "{\"text\":\"§d§lAstral Dust\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "133F29189D4980F8"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.1f
+					}
+				}
+			}]
+		}
+		{
+			title: "Enigmatic Amulet (Sprinting Speed)"
+			icon: {
+				id: "enigmaticlegacy:enigmatic_amulet"
+				Count: 1b
+				tag: {
+					AssignedColor: 0.2f
+				}
+			}
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "126C98BB7DD883C1"
+			tasks: [{
+				id: "1348496EA34C2DCF"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§bCurrency used to purchase\"}"
+								"{\"text\":\"§brare items from the Black Market.\"}"
+								"{\"text\":\"§bThe Black Market can be found\"}"
+								"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+							]
+							Name: "{\"text\":\"§d§lAstral Dust\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "12473B4E62289F0E"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.2f
+					}
+				}
+			}]
+		}
+		{
+			title: "Enigmatic Amulet (Deflect Chance)"
+			icon: {
+				id: "enigmaticlegacy:enigmatic_amulet"
+				Count: 1b
+				tag: {
+					AssignedColor: 0.3f
+				}
+			}
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "5EA2E43295530AD4"
+			tasks: [
+				{
+					id: "61CE59B5DC53A7AA"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:astral_dust"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§bCurrency used to purchase\"}"
+									"{\"text\":\"§brare items from the Black Market.\"}"
+									"{\"text\":\"§bThe Black Market can be found\"}"
+									"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+								]
+								Name: "{\"text\":\"§d§lAstral Dust\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2C84FC06B9B27D6A"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "32FF37D99F82F526"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.3f
+					}
+				}
+			}]
+		}
+		{
+			title: "Enigmatic Amulet (- Gravity%)"
+			icon: {
+				id: "enigmaticlegacy:enigmatic_amulet"
+				Count: 1b
+				tag: {
+					AssignedColor: 0.4f
+				}
+			}
+			x: -2.5d
+			y: 4.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "64E6468C1D95DA40"
+			tasks: [{
+				id: "3636C4A245AA972B"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§bCurrency used to purchase\"}"
+								"{\"text\":\"§brare items from the Black Market.\"}"
+								"{\"text\":\"§bThe Black Market can be found\"}"
+								"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+							]
+							Name: "{\"text\":\"§d§lAstral Dust\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "65D9F6F8BBE80225"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.4f
+					}
+				}
+			}]
+		}
+		{
+			title: "Enigmatic Amulet (Mining Speed)"
+			icon: {
+				id: "enigmaticlegacy:enigmatic_amulet"
+				Count: 1b
+				tag: {
+					AssignedColor: 0.5f
+				}
+			}
+			x: -2.5d
+			y: 5.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "379BE9773F40DF2D"
+			tasks: [
+				{
+					id: "77D3CCEEB01447E6"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:astral_dust"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§bCurrency used to purchase\"}"
+									"{\"text\":\"§brare items from the Black Market.\"}"
+									"{\"text\":\"§bThe Black Market can be found\"}"
+									"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+								]
+								Name: "{\"text\":\"§d§lAstral Dust\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7449B9652B0C2BB8"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0901C15A21B452F2"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.5f
+					}
+				}
+			}]
+		}
+		{
+			title: "Enigmatic Amulet (Lifesteal)"
+			icon: {
+				id: "enigmaticlegacy:enigmatic_amulet"
+				Count: 1b
+				tag: {
+					AssignedColor: 0.6f
+				}
+			}
+			x: -2.5d
+			y: 6.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "681D1D9F3FA4E6EF"
+			tasks: [
+				{
+					id: "57127E87363507B1"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:astral_dust"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§bCurrency used to purchase\"}"
+									"{\"text\":\"§brare items from the Black Market.\"}"
+									"{\"text\":\"§bThe Black Market can be found\"}"
+									"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+								]
+								Name: "{\"text\":\"§d§lAstral Dust\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "53436231B6B595F6"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "21A5D94294000164"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.6f
+					}
+				}
+			}]
+		}
+		{
+			title: "Enigmatic Amulet (Swim Speed)"
+			icon: {
+				id: "enigmaticlegacy:enigmatic_amulet"
+				Count: 1b
+				tag: {
+					AssignedColor: 0.7f
+				}
+			}
+			x: -2.5d
+			y: 7.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "66B8BAF5AF33634C"
+			tasks: [{
+				id: "5264F72DA36C197D"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "335EB038AB4D4DE1"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.7f
+					}
+				}
+			}]
+		}
+		{
+			title: "Amulet of Ascension"
+			icon: {
+				id: "enigmaticlegacy:ascension_amulet"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.5d
+			y: 8.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "3BC39C98E8F17451"
+			tasks: [
+				{
+					id: "57D42D39FF9801AC"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:enigmatic_amulet"
+						Count: 1b
+						tag: {
+							AssignedColor: 0.1f
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "136E7DFE1216EC65"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:enigmatic_amulet"
+						Count: 1b
+						tag: {
+							AssignedColor: 0.2f
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2FC26EA1828B3639"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:enigmatic_amulet"
+						Count: 1b
+						tag: {
+							AssignedColor: 0.3f
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7892499209E73035"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:enigmatic_amulet"
+						Count: 1b
+						tag: {
+							AssignedColor: 0.4f
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5EA16F2843C2A020"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:enigmatic_amulet"
+						Count: 1b
+						tag: {
+							AssignedColor: 0.5f
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1D4167773342E14D"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:enigmatic_amulet"
+						Count: 1b
+						tag: {
+							AssignedColor: 0.6f
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "29990376573C0DC4"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:enigmatic_amulet"
+						Count: 1b
+						tag: {
+							AssignedColor: 0.7f
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "67348899ED762CB7"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:ascension_amulet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Iron Ring"
+			icon: "enigmaticlegacy:iron_ring"
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "2250568890D148AE"
+			tasks: [{
+				id: "52AE00522E9E5F5C"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "13998A89D3994E52"
+				type: "item"
+				item: "enigmaticlegacy:iron_ring"
+			}]
+		}
+		{
+			title: "Exquisite Ring"
+			icon: "enigmaticlegacy:gem_ring"
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "28789D60C9893FBE"
+			tasks: [{
+				id: "530C9C6F32F0FB1F"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2780D9E91D3FEABE"
+				type: "item"
+				item: "enigmaticlegacy:gem_ring"
+			}]
+		}
+		{
+			title: "Dormant Eye"
+			icon: {
+				id: "enigmaticlegacy:architect_eye"
+				Count: 1b
+				tag: { }
+			}
+			x: -1.5d
+			y: 3.5d
+			description: [
+				"Provides reach bonus when active... but who will see you?"
+				"Adds +1 charm slot when equipped."
+			]
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "2302C5F51B897551"
+			tasks: [{
+				id: "42BCE781E5BB4DB7"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0057A06716A34412"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:architect_eye"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Magnetic Ring"
+			icon: "enigmaticlegacy:magnet_ring"
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "4F288ECB2F50BB52"
+			tasks: [{
+				id: "07D3511C2830AF50"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "71962EE499440007"
+				type: "item"
+				item: "enigmaticlegacy:magnet_ring"
+			}]
+		}
+		{
+			title: "Dislocation Ring"
+			icon: "enigmaticlegacy:super_magnet_ring"
+			x: -1.5d
+			y: 5.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "6B94EFBA0C816F38"
+			tasks: [{
+				id: "164DD7941BF38F44"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1F530E4FBB145DFE"
+				type: "item"
+				item: "enigmaticlegacy:super_magnet_ring"
+			}]
+		}
+		{
+			title: "Ring of Ender"
+			icon: "enigmaticlegacy:ender_ring"
+			x: -1.5d
+			y: 6.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "4B3ADF669BC6B796"
+			tasks: [{
+				id: "3D3995FDBB977B19"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "14C70B2331E7F504"
+				type: "item"
+				item: "enigmaticlegacy:ender_ring"
+			}]
+		}
+		{
+			title: "Emblem of Monster Hunter"
+			icon: "enigmaticlegacy:monster_charm"
+			x: -1.5d
+			y: 7.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "0DDC046E2DA934AC"
+			tasks: [
+				{
+					id: "0DD3BD3354CB3ABD"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "1AD6BFB7364E1BFF"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:astral_dust"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§bCurrency used to purchase\"}"
+									"{\"text\":\"§brare items from the Black Market.\"}"
+									"{\"text\":\"§bThe Black Market can be found\"}"
+									"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+								]
+								Name: "{\"text\":\"§d§lAstral Dust\"}"
+							}
+						}
+					}
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6A7429D38DD2F0A1"
+				type: "item"
+				item: "enigmaticlegacy:monster_charm"
+			}]
+		}
+		{
+			title: "Blazing Core"
+			icon: "enigmaticlegacy:magma_heart"
+			x: -1.5d
+			y: 8.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "45079495C86F34CA"
+			tasks: [
+				{
+					id: "517F60AE1492880F"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "1C3F7C7701D28126"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:astral_dust"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§bCurrency used to purchase\"}"
+									"{\"text\":\"§brare items from the Black Market.\"}"
+									"{\"text\":\"§bThe Black Market can be found\"}"
+									"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+								]
+								Name: "{\"text\":\"§d§lAstral Dust\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6A64EA91DDB589AA"
+				type: "item"
+				item: "enigmaticlegacy:magma_heart"
+			}]
+		}
+		{
+			title: "Will of the Ocean"
+			icon: "enigmaticlegacy:ocean_stone"
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "3C00D791CD4A9777"
+			tasks: [{
+				id: "3C873FD57E2CAC2E"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 500L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "720B6A447CE102AF"
+				type: "item"
+				item: "enigmaticlegacy:ocean_stone"
+			}]
+		}
+		{
+			title: "Angel's Blessing"
+			icon: "enigmaticlegacy:angel_blessing"
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "423A6240C8DF8EB3"
+			tasks: [
+				{
+					id: "5206B30151533D53"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 500L
+					consume_items: true
+				}
+				{
+					id: "17E8B8B8079B50AD"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:astral_dust"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§bCurrency used to purchase\"}"
+									"{\"text\":\"§brare items from the Black Market.\"}"
+									"{\"text\":\"§bThe Black Market can be found\"}"
+									"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+								]
+								Name: "{\"text\":\"§d§lAstral Dust\"}"
+							}
+						}
+					}
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6FB505909FBC669A"
+				type: "item"
+				item: "enigmaticlegacy:angel_blessing"
+			}]
+		}
+		{
+			title: "Heart of the Golem"
+			icon: "enigmaticlegacy:golem_heart"
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["2A00FD2DAC3D0CF8"]
+			id: "7994E9AA363981D3"
+			tasks: [
+				{
+					id: "6AA6656AE60D91F9"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 300L
+					consume_items: true
+				}
+				{
+					id: "32F506F9EA30DE53"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:astral_dust"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§bCurrency used to purchase\"}"
+									"{\"text\":\"§brare items from the Black Market.\"}"
+									"{\"text\":\"§bThe Black Market can be found\"}"
+									"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+								]
+								Name: "{\"text\":\"§d§lAstral Dust\"}"
+							}
+						}
+					}
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "56A93B2A87ED580A"
+				type: "item"
+				item: "enigmaticlegacy:golem_heart"
+			}]
+		}
+		{
+			title: "Protection"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -4.0d
+			y: -3.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "4287F4840467CE72"
+			tasks: [{
+				id: "1A3C8AEAE126E1DD"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "155CCA5084582C1A"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Feather Falling"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:feather_falling"
+					}]
+				}
+			}
+			x: -5.0d
+			y: -3.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "64F340BF31568DC7"
+			tasks: [{
+				id: "18951860E0BAFBE4"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "723080533F264EA6"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:feather_falling"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Sharpness"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+			x: -6.0d
+			y: -3.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "4592D18D9118B24D"
+			tasks: [{
+				id: "673F133ADB8B5767"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "294C087F0E7D465D"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Knockback"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:knockback"
+					}]
+				}
+			}
+			x: -7.0d
+			y: -3.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "5A9B99565C40CA53"
+			tasks: [{
+				id: "69E36C2A76FAE1B5"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "161BF1F64385547B"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:knockback"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Looting"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:looting"
+					}]
+				}
+			}
+			x: -8.0d
+			y: -3.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "72E8F9FF40E1CBE5"
+			tasks: [{
+				id: "0C927A01B6AF260C"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7799C34763FFED3A"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:looting"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Efficiency"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+			x: -9.0d
+			y: -3.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "111F2F99485CF5D9"
+			tasks: [{
+				id: "339E61886A4FA672"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "09C446402C224BA4"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Unbreaking"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+			x: -10.0d
+			y: -3.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "2AFEEE89F0335BE3"
+			tasks: [{
+				id: "2CB9FE1A30C15E50"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1C49BB7718454330"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Fortune"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+			x: -11.0d
+			y: -3.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "44004155E4F5271C"
+			tasks: [{
+				id: "2470A9205887D647"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1F6EA0B04209CB71"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Tome of Hungering Knowledge"
+			icon: "enigmaticlegacy:enchantment_transposer"
+			x: -4.0d
+			y: -4.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "726ED047C82020A8"
+			tasks: [{
+				id: "5C42F99BBE37F2AA"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 128L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "645E5316429C1AD6"
+				type: "item"
+				item: "enigmaticlegacy:enchantment_transposer"
+			}]
+		}
+		{
+			title: "Mending"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:mending"
+					}]
+				}
+			}
+			x: -5.0d
+			y: -4.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "09D7C2382328B1A0"
+			tasks: [{
+				id: "0B6CC5110A3CFC75"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7315A4CA534D16B9"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:mending"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Ancient Tome: Protection"
+			icon: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -6.0d
+			y: -4.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "5547499F034A07A7"
+			tasks: [{
+				id: "05E473007E33DBD7"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§bCurrency used to purchase\"}"
+								"{\"text\":\"§brare items from the Black Market.\"}"
+								"{\"text\":\"§bThe Black Market can be found\"}"
+								"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+							]
+							Name: "{\"text\":\"§d§lAstral Dust\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6B0CD4BDD01B9AEE"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Ancient Tome: Sharpness"
+			icon: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -7.0d
+			y: -4.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "6B93312B420F3FCC"
+			tasks: [{
+				id: "1EFF6F81FA16089C"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§bCurrency used to purchase\"}"
+								"{\"text\":\"§brare items from the Black Market.\"}"
+								"{\"text\":\"§bThe Black Market can be found\"}"
+								"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+							]
+							Name: "{\"text\":\"§d§lAstral Dust\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "090CBA9C24F95356"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Ancient Tome: Knockback"
+			icon: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -8.0d
+			y: -4.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "6C9F6ACD8317D199"
+			tasks: [{
+				id: "679C0E27684141AF"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§bCurrency used to purchase\"}"
+								"{\"text\":\"§brare items from the Black Market.\"}"
+								"{\"text\":\"§bThe Black Market can be found\"}"
+								"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+							]
+							Name: "{\"text\":\"§d§lAstral Dust\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2478E6693E22B71F"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:knockback"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Ancient Tome: Fire Aspect"
+			icon: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -9.0d
+			y: -4.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "55915674E4A9E3DA"
+			tasks: [{
+				id: "1E6C3DC122B305E2"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§bCurrency used to purchase\"}"
+								"{\"text\":\"§brare items from the Black Market.\"}"
+								"{\"text\":\"§bThe Black Market can be found\"}"
+								"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+							]
+							Name: "{\"text\":\"§d§lAstral Dust\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2ADB442A71966311"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:fire_aspect"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Ancient Tome: Looting"
+			icon: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -10.0d
+			y: -4.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "358B544EE3178D77"
+			tasks: [{
+				id: "2C1EAFE0D5C3B9EC"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§bCurrency used to purchase\"}"
+								"{\"text\":\"§brare items from the Black Market.\"}"
+								"{\"text\":\"§bThe Black Market can be found\"}"
+								"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+							]
+							Name: "{\"text\":\"§d§lAstral Dust\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0F60E5EE7D4AA61A"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:looting"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Ancient Tome: Efficiency"
+			icon: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -11.0d
+			y: -4.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "1FA8DC00B95116DA"
+			tasks: [{
+				id: "0B191A1EEA306823"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§bCurrency used to purchase\"}"
+								"{\"text\":\"§brare items from the Black Market.\"}"
+								"{\"text\":\"§bThe Black Market can be found\"}"
+								"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+							]
+							Name: "{\"text\":\"§d§lAstral Dust\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00E406160A4EA48B"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Ancient Tome: Unbreaking"
+			icon: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -4.0d
+			y: -5.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "1A4A97C3E0E8CB82"
+			tasks: [{
+				id: "0F5AD9CAF761274D"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§bCurrency used to purchase\"}"
+								"{\"text\":\"§brare items from the Black Market.\"}"
+								"{\"text\":\"§bThe Black Market can be found\"}"
+								"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+							]
+							Name: "{\"text\":\"§d§lAstral Dust\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "41122B440EA61D62"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Ancient Tome: Fortune"
+			icon: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -5.0d
+			y: -5.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "75BC2F86E19A0EFF"
+			tasks: [{
+				id: "25923EB4B52259B1"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§bCurrency used to purchase\"}"
+								"{\"text\":\"§brare items from the Black Market.\"}"
+								"{\"text\":\"§bThe Black Market can be found\"}"
+								"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+							]
+							Name: "{\"text\":\"§d§lAstral Dust\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3F6403706B5B676B"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Ancient Tome: Critical Strike"
+			icon: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -6.0d
+			y: -5.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "4B8B7E5E7FDFF6EB"
+			tasks: [{
+				id: "201BF2F25DCCB5D4"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§bCurrency used to purchase\"}"
+								"{\"text\":\"§brare items from the Black Market.\"}"
+								"{\"text\":\"§bThe Black Market can be found\"}"
+								"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+							]
+							Name: "{\"text\":\"§d§lAstral Dust\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4A2C6F65EE48F40A"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "difficultraids:critical_strike"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Ancient Tome: Critical Burst"
+			icon: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -7.0d
+			y: -5.5d
+			description: ["Repeatable"]
+			dependencies: ["6ED08531873B9AD1"]
+			id: "264D725383C956CC"
+			tasks: [{
+				id: "4B92E68F84F344A7"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§bCurrency used to purchase\"}"
+								"{\"text\":\"§brare items from the Black Market.\"}"
+								"{\"text\":\"§bThe Black Market can be found\"}"
+								"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+							]
+							Name: "{\"text\":\"§d§lAstral Dust\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "26D91D01F4270253"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "difficultraids:critical_burst"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Sigil of Socketing (x2)"
+			icon: "apotheosis:sigil_of_socketing"
+			x: 6.5d
+			y: -3.5d
+			description: [
+				"Adds a socket to an item via the smithing table. Max 3 sockets per item. Can be upgraded via infusion to add max 4 sockets."
+				"(Repeatable)"
+			]
+			can_repeat: true
+			id: "319778BE2CF7B254"
+			tasks: [
+				{
+					id: "2094B6348D629A3C"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:astral_dust"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§bCurrency used to purchase\"}"
+									"{\"text\":\"§brare items from the Black Market.\"}"
+									"{\"text\":\"§bThe Black Market can be found\"}"
+									"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+								]
+								Name: "{\"text\":\"§d§lAstral Dust\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2E05F9D424139731"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "751921149CBD6B14"
+				type: "item"
+				item: "apotheosis:sigil_of_socketing"
+				count: 2
+			}]
+		}
+		{
+			title: "The Eye-ery"
+			icon: {
+				id: "endrem:magical_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: -6.0d
+			description: [
+				"Pay to unlock"
+				"This eye can act as a substitute for any of the usual Eyes required to unlock the end portal. A viable option for those who are missing one last eye, but at the cost of irreplaceable currency..."
+			]
+			dependencies: ["25B936BB3B6D664C"]
+			size: 1.5d
+			id: "414BB5F11C4368DF"
+			tasks: [{
+				id: "57EF68540C06C381"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 10L
+			}]
+			rewards: [{
+				id: "453169AD3D19FCA6"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+		{
+			title: "Cryptic Eye"
+			icon: {
+				id: "endrem:cryptic_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: -8.0d
+			dependencies: ["414BB5F11C4368DF"]
+			id: "2B938D93D7CCEB2C"
+			tasks: [
+				{
+					id: "11C0DD985D6045E7"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:astral_dust"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§bCurrency used to purchase\"}"
+									"{\"text\":\"§brare items from the Black Market.\"}"
+									"{\"text\":\"§bThe Black Market can be found\"}"
+									"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+								]
+								Name: "{\"text\":\"§d§lAstral Dust\"}"
+							}
+						}
+					}
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "012CA8A5EF421008"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 200L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0A4F7FE863B8CC67"
+				type: "item"
+				item: {
+					id: "endrem:cryptic_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "The Miscellanery"
+			icon: "enigmaticlegacy:loot_generator"
+			x: 3.0d
+			y: 0.0d
+			description: ["Pay to unlock"]
+			dependencies: ["25B936BB3B6D664C"]
+			size: 1.5d
+			id: "696C08845BC1029C"
+			tasks: [{
+				id: "67076D4DC2DEE74A"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 10L
+			}]
+			rewards: [{
+				id: "52D96E889525F6AA"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+		{
+			title: "Witch's Pupil"
+			icon: "endrem:witch_pupil"
+			x: 3.0d
+			y: 2.0d
+			description: ["Used to craft a rare item..."]
+			dependencies: ["696C08845BC1029C"]
+			id: "0D8B16AF1CCABA23"
+			tasks: [
+				{
+					id: "5ADAE65573816AC0"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:astral_dust"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§bCurrency used to purchase\"}"
+									"{\"text\":\"§brare items from the Black Market.\"}"
+									"{\"text\":\"§bThe Black Market can be found\"}"
+									"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+								]
+								Name: "{\"text\":\"§d§lAstral Dust\"}"
+							}
+						}
+					}
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "717790E918628F1F"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 200L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5E1A39F43028BED5"
+				type: "item"
+				item: "endrem:witch_pupil"
+			}]
+		}
+		{
+			title: "Undead Soul"
+			icon: "endrem:undead_soul"
+			x: 3.0d
+			y: 3.0d
+			description: ["Used to craft a rare item..."]
+			dependencies: ["696C08845BC1029C"]
+			id: "77539A2E3C268040"
+			tasks: [
+				{
+					id: "69AA45ADF6A7C1C4"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:astral_dust"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§bCurrency used to purchase\"}"
+									"{\"text\":\"§brare items from the Black Market.\"}"
+									"{\"text\":\"§bThe Black Market can be found\"}"
+									"{\"text\":\"§bvia its tab in the Quest Book menu.\"}"
+								]
+								Name: "{\"text\":\"§d§lAstral Dust\"}"
+							}
+						}
+					}
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "0EDF0B22815E8D6E"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 200L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "451AA598F3840F84"
+				type: "item"
+				item: "endrem:undead_soul"
+			}]
+		}
+		{
+			title: "Sheep Plushie"
+			icon: "plushies:sheep"
+			x: 4.0d
+			y: 2.0d
+			description: ["Quite the collectable!"]
+			dependencies: ["696C08845BC1029C"]
+			id: "03BBD2C957225948"
+			tasks: [{
+				id: "668C8B71D4ABF00E"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "57B4119DC5DF8CDE"
+				type: "item"
+				item: "plushies:sheep"
+			}]
+		}
+		{
+			title: "Turtle Plushie"
+			icon: "plushies:turtle"
+			x: 4.0d
+			y: 3.0d
+			description: ["Quite the collectable!"]
+			dependencies: ["696C08845BC1029C"]
+			id: "2E670C8A4002F943"
+			tasks: [{
+				id: "7ECD427742045E78"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0949147BA5B6FB59"
+				type: "item"
+				item: "plushies:turtle"
+			}]
+		}
+		{
+			title: "Snowman Plushie"
+			icon: "plushies:snow_golem"
+			x: 4.0d
+			y: 4.0d
+			description: ["Quite the collectable!"]
+			dependencies: ["696C08845BC1029C"]
+			id: "7F4E4DCF48E70774"
+			tasks: [{
+				id: "367E9DEE8B6DFBBC"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6A5535487FACDD69"
+				type: "item"
+				item: "plushies:snow_golem"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

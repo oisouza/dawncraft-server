@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:entity",
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+				"type": "minecraft:item",
+				"count": 1,
+				"name": "ba_bt:guardian_eye_ocean"
+			},
+			{
+				"type": "minecraft:item",
+				"count": 2,
+				"name": "minecraft:diamond"
+			},
+			{
+				"type": "minecraft:item",
+				"random": 0.5,
+				"count": 1,
+				"name": "minecraft:prismarine_shard"
+			}
+		]
+	}]
+}

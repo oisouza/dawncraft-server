@@ -1,0 +1,189 @@
+
+[general]
+	#The range from an active beacon where no champions will spawn (0 to disable)
+	#Range: 0 ~ 1000
+	beaconProtectionRange = 64
+	#Set to true to enable champions from mob spawners
+	championSpawners = false
+	#The minimum tier of champions that will have death messages sent out upon defeat (0 to disable)
+	#Range: > 0
+	deathMessageTier = 0
+	#A list of dimension names that are blacklisted/whitelisted for champions
+	dimensionList = []
+	#Set whether the dimension list is a blacklist or whitelist
+	#Allowed Values: BLACKLIST, WHITELIST
+	dimensionPermission = "BLACKLIST"
+	#A list of entities that are blacklisted/whitelisted for champions
+	entitiesList = ["simple_mobs:nine_tails", "simple_mobs:projectile_1", "simple_mobs:projecttest", "simple_mobs:protector", "simple_mobs:projectile_2", "simple_mobs:spikes", "simple_mobs:tail_dart", "simple_mobs:spell_1", "simple_mobs:spell_2", "simple_mobs:ghostprojectile", "simple_mobs:projectile_magic", "simple_mobs:fire_giant", "simple_mobs:fireball", "simple_mobs:woodenday", "simple_mobs:getsuga_65", "simple_mobs:projectile_summoningbell", "simple_mobs:summoningeffect", "simple_mobs:spiritnick", "simple_mobs:gemspike", "simple_mobs:cube", "simple_mobs:roar", "simple_mobs:ground_spike", "simple_mobs:sword_projectile", "simple_mobs:ball", "simple_mobs:merlin_1306", "simple_mobs:shadow", "simple_mobs:shadow_mew_yt", "simple_mobs:guardian_eye", "simple_mobs:solar_pixel", "simple_mobs:u_gone", "simple_mobs:wither_ray", "simple_mobs:damaginglaser", "simple_mobs:tiny_necromancer", "simple_mobs:laser_2", "simple_mobs:staff_usage", "simple_mobs:barrel_man", "simple_mobs:defeating_cube", "simple_mobs:josslyn_mc", "simple_mobs:griffingrab", "simple_mobs:multipartbody_2", "simple_mobs:multipartbody", "simple_mobs:multi_part_leg", "simple_mobs:air", "simple_mobs:rumble", "simple_mobs:flame_ball", "simple_mobs:lava_ball", "simple_mobs:grabbed", "simple_mobs:griffingrab", "simple_mobs:fire_dragon_ambient", "simple_mobs:fire_drag_proj", "simple_mobs:dragon_flame", "simple_mobs:fire_dragon", "simple_mobs:drag_multi_part_2", "simple_mobs:drag_multi_part_3", "simple_mobs:drag_multi_part_4", "simple_mobs:drag_multi_part_5", "simple_mobs:drag_multi_part_6", "simple_mobs:fire_dragon_grab", "simple_mobs:ice_dragon_breath", "simple_mobs:ice_dragon_ambient", "simple_mobs:ice_dragon_projectile", "simple_mobs:ice_dragon", "simple_mobs:ice_drag_multi_part_3", "simple_mobs:ice_drag_multi_part_4", "simple_mobs:ice_drag_multi_part_5", "simple_mobs:ice_drag_multi_part_6", "simple_mobs:ice_drag_multi_part_2", "simple_mobs:imp_bomb", "simple_mobs:wind", "simple_mobs:asharmor_ice", "simple_mobs:asharmor_fire", "simple_mobs:raiddetectwitch", "simple_mobs:raiddetectwitch", "simple_mobs:skeletonlord", "simple_mobs:patronwerewolf", "simple_mobs:patronwerewolf", "simple_mobs:bone", "simple_mobs:ogre", "simple_mobs:giant_skele", "simple_mobs:giant_skele", "simple_mobs:losteye_effect_1", "simple_mobs:losteye_effect_2", "simple_mobs:losteye_effect_3", "simple_mobs:losteyeproj", "simple_mobs:elemental_deity", "simple_mobs:notchflash_1", "simple_mobs:notchflash_2", "simple_mobs:notchflash_3", "simple_mobs:notchflash_4", "simple_mobs:notchgroundeffect_1", "simple_mobs:notchgroundeffect_2", "simple_mobs:notchgroundeffect_3", "simple_mobs:notchgroundeffect_4", "simple_mobs:notch_punch", "simple_mobs:notch_stompeffect", "simple_mobs:elemental_flash_1", "simple_mobs:elemental_flash_2", "simple_mobs:elemental_flash_3", "simple_mobs:elemental_grab", "simple_mobs:blackhole", "simple_mobs:elemental_chain", "simple_mobs:elemental_shield", "simple_mobs:elemental_attack_1", "simple_mobs:elemental_attack_2", "simple_mobs:elemental_projectile", "simple_mobs:notch_boss", "simple_mobs:notch_grab", "simple_mobs:elemental_spawn", "simple_mobs:notch_flash_5", "simple_mobs:notch_sit", "simple_mobs:fire_drag_multi_part", "simple_mobs:fire_drag_multi_part_1", "simple_mobs:ice_drag_multi_part", "simple_mobs:ice_drag_multi_part_1", "simple_mobs:claw_mark", "simple_mobs:shield_element", "simple_mobs:korok_1", "simple_mobs:korok_1", "simple_mobs:korok_2", "simple_mobs:korok_3", "simple_mobs:korok_4", "simple_mobs:korok_5", "simple_mobs:korok_intro", "simple_mobs:martian", "simple_mobs:cave_dweller", "illageandspillage:magispeller", "illageandspillage:spiritcaller", "simple_mobs:korok_5_balloon", "simple_mobs:korok_5_balloon", "darkersouls:nameless_king", "bloodandmadness:father_gascoigne", "cataclysm:ender_golem", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:swampjaw", "blue_skies:starlit_crusher", "conjurer_illager:conjurer", "blue_skies:arachnarch", "alexsmobs:warped_mosco", "cataclysm:ender_guardian", "minecraft:wither", "minecraft:ender_dragon", "cataclysm:netherite_monstrosity", "cataclysm:ignis", "alexsmobs:void_worm", "alexsmobs:void_worm_part", "aquamirae:captain_cornelia", "ba_bt:land_golem", "ba_bt:ocean_golem", "simple_mobs:ensnared_soul"]
+	#Set whether the entities list is a blacklist or whitelist
+	#Allowed Values: BLACKLIST, WHITELIST
+	entitiesPermission = "BLACKLIST"
+	#Set to true to show HUD display for champions, including health, affixes, and tier
+	showHud = true
+	#Set to true to have champions generate a colored particle effect indicating their rank
+	showParticles = true
+	#Set to true to show champion tier and affixes in The One Probe overlay
+	enableTOPIntegration = true
+
+[loot]
+	#Set to true to allow fake players to generate champion loot
+	fakeLoot = false
+	#Set the source of champion mob drops
+	#Allowed Values: CONFIG, LOOT_TABLE, CONFIG_AND_LOOT_TABLE
+	lootSource = "LOOT_TABLE"
+	#List of loot drops from champions if sourced from config
+	#Format: [tier];[modid:name];[amount];[enchant(true/false)];[weight]
+	lootDrops = []
+	#Set to true to scale amount of loot drops from champions to tier if sourced from config
+	lootScaling = false
+
+[growth]
+	#The percent increase in health multiplied by the growth factor
+	#Range: 0.0 ~ 1.7976931348623157E308
+	healthGrowth = 0.35
+	#The percent increase in attack damage multiplied by the growth factor
+	#Range: 0.0 ~ 1.7976931348623157E308
+	attackGrowth = 0.5
+	#The increase in armor multiplied by the growth factor
+	#Range: 0.0 ~ 30.0
+	armorGrowth = 2.0
+	#The increase in armor toughness multiplied by the growth factor
+	#Range: 0.0 ~ 30.0
+	toughnessGrowth = 1.0
+	#The increase in knockback resistance multiplied by the growth factor
+	#Range: 0.0 ~ 1.0
+	knockbackResistanceGrowth = 0.05
+	#The increase in experience multiplied by the growth factor
+	#Range: > 0
+	experienceGrowth = 1
+	#The increase in explosive range multiplied by the growth factor
+	#Range: 0 ~ 100
+	explosionGrowth = 2
+
+[affixes]
+	#Set the maximum distance that mobs can use their targeted abilities from, 0 to disable
+	#Range: 0.0 ~ 100.0
+	affixTargetRange = 0.0
+
+	[affixes.adaptable]
+		#The increase in damage reduction for each consecutive attack of the same damage type
+		#Range: 0.0 ~ 1.0
+		adaptableDamageReductionIncrement = 0.15
+		#The maximum damage reduction
+		#Range: 0.0 ~ 1.0
+		adaptableMaxDamageReduction = 0.9
+
+	[affixes.arctic]
+		#How often the champion will shoot projectiles (in seconds)
+		#Range: 1 ~ 100
+		arcticAttackInterval = 1
+
+	[affixes.dampened]
+		#The amount of damage reduction to apply to indirect attacks
+		#Range: 0.0 ~ 1.0
+		dampenedDamageReduction = 0.8
+
+	[affixes.desecrating]
+		#How long (in seconds) between cloud placements
+		#Range: > 1
+		desecratingCloudInterval = 3
+		#How long (in seconds) it takes for the effect cloud to activate after being placed
+		#Range: > 0
+		desecratingCloudActivationTime = 1
+		#The radius of the cloud effect
+		#Range: 1.0 ~ 1.7976931348623157E308
+		desecratingCloudRadius = 4.0
+		#The duration (in seconds) of the cloud effect
+		#Range: > 1
+		desecratingCloudDuration = 10
+
+	[affixes.enkindling]
+		#How often the champion will shoot projectiles (in seconds)
+		#Range: 1 ~ 100
+		enkindlingAttackInterval = 1
+
+	[affixes.hasty]
+		#The base movement speed bonus
+		#Range: 0.0 ~ 1.7976931348623157E308
+		hastyMovementBonus = 0.25
+
+	[affixes.infested]
+		#The amount of parasites to spawn per interval
+		#Range: 1 ~ 100
+		infestedAmount = 2
+		#The time (in seconds) between parasite spawns
+		#Range: 1 ~ 100
+		infestedInterval = 3
+		#The amount of parasites to infest per health point of the champion
+		#Range: 0.0 ~ 1.7976931348623157E308
+		infestedPerHealth = 0.5
+		#The total amount of parasites a champion can house at once
+		#Range: > 1
+		infestedTotal = 20
+		#The mob to use as a parasite for infestation
+		infestedParasite = "minecraft:silverfish"
+		#The mob to use as a parasite for infestation of ender mob
+		infestedEnderParasite = "minecraft:endermite"
+
+	[affixes.paralyzing]
+		#The percent chance that an attack will paralyze targets
+		#Range: 0.0 ~ 1.0
+		paralyzingChance = 0.2
+
+	[affixes.knocking]
+		#The multiplier to apply to the knockback strength
+		#Range: 0.0 ~ 1.7976931348623157E308
+		knockingMultiplier = 5.0
+
+	[affixes.lively]
+		#The amount of health per second regeneration
+		#Range: 0.0 ~ 1.7976931348623157E308
+		livelyHealAmount = 1.0
+		#Multiplier to health regeneration when not aggressive
+		#Range: 1.0 ~ 1.7976931348623157E308
+		livelyPassiveMultiplier = 5.0
+		#Set cooldown (in seconds) for regeneration after getting attacked
+		#Range: > 1
+		livelyCooldown = 3
+
+	[affixes.molten]
+		#Set to true to have Molten champions not be damaged by water
+		moltenWaterResistance = false
+
+	[affixes.plagued]
+		#The effect that will be spread
+		#Format:[effect];[power];[duration(secs)]
+		plaguedEffect = "minecraft:poison;15;1"
+		#The range of the plagued effect
+		#Range: 1 ~ 100
+		plaguedRange = 5
+
+	[affixes.reflective]
+		#The minimum percent of damage to reflect back
+		#Range: 0.0 ~ 1.0
+		reflectiveMinPercent = 0.1
+		#The maximum percent of damage to reflect back
+		#Range: 0.0 ~ 1.0
+		reflectiveMaxPercent = 0.35
+		#The maximum amount of damage to reflect back
+		#Range: > 0
+		reflectiveMax = 100
+		#Set to true to enable deadly reflected strikes
+		reflectiveLethal = true
+
+	[affixes.magnetic]
+		#Strength of the magnetic pulling effect
+		#Range: 0.0 ~ 100.0
+		magneticStrength = 0.05
+
+	[affixes.wounding]
+		#The percent chance that an attack will wound targets
+		#Range: 0.0 ~ 1.0
+		woundingChance = 0.4
+
+[integrations]
+	#Scaling Health
+	#List of tiers with numbers to multiply spawn rates by difficulty
+	#Format: [tier];[percent increase]
+	scalingHealthSpawnModifiers = []
+

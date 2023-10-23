@@ -1,0 +1,174 @@
+{
+"create:analog_lever":
+	{
+		"engineering": 2
+	},
+"create:pulse_repeater":
+	{
+		"engineering": 2
+	},
+"create:extendo_grip":
+	{
+		"engineering": 2
+	},
+"create:redstone_link":
+	{
+		"engineering": 2
+	},
+"create:shaft":
+	{
+		"engineering": 2
+	},
+"create:wrench":
+	{
+		"engineering": 2
+	},
+"create:copper_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:white_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:orange_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:magenta_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:light_blue_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:yellow_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:lime_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:pink_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:gray_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:light_gray_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:cyan_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:purple_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:blue_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:brown_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:green_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:red_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:black_valve_handle":
+	{
+		"engineering": 2
+	},
+"create:hand_crank":
+	{
+		"engineering": 2
+	},
+"create:cogwheel":
+	{
+		"engineering": 2
+	},
+"create:water_wheel":
+	{
+		"engineering": 2
+	},
+"create:crushing_wheel":
+	{
+		"engineering": 2
+	},
+"create:large_cogwheel":
+	{
+		"engineering": 2
+	},
+"create:flywheel":
+	{
+		"engineering": 2
+	},
+"minecraft:fishing_rod":
+	{
+		"fishing": 2
+	},
+"hexerei:mixing_cauldron":
+	{
+		"slayer": 2
+	},
+"minecraft:smithing_table":
+	{
+		"smithing": 2
+	},
+"minecraft:enchanting_table":
+	{
+		"magic": 2
+	},
+"minecraft:smoker":
+	{
+		"cooking": 2
+	},
+"minecraft:loom":
+	{
+		"agility": 2
+	},
+"minecraft:cartography_table":
+	{
+		"sailing": 2
+	},
+"minecraft:fletching_table":
+	{
+		"archery": 2
+	},
+"minecraft:grindstone":
+	{
+		"excavation": 2
+	},
+"minecraft:stonecutter":
+	{
+		"woodcutting": 2
+	},
+"minecraft:anvil":
+	{
+		"crafting": 2
+	},
+"minecraft:chipped_anvil":
+	{
+		"crafting": 2
+	},
+"minecraft:damaged_anvil":
+	{
+		"crafting": 2
+	},
+"minecraft:blast_furnace":
+	{
+		"endurance": 2
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xyx",
+    "# #",
+    "x#x"
+  ],
+  "key": {
+    "#": {
+      "item": "paraglider:spirit_orb"
+    },
+    "x": {
+      "item": "minecraft:iron_bars"
+    },
+    "y": {
+      "tag": "minecraft:trapdoors"
+    }
+  },
+  "result": {
+    "item": "untamedwilds:trap_cage",
+    "count": 1
+  }
+}

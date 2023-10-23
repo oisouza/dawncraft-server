@@ -1,0 +1,11 @@
+{
+     "name": "orcz:orcshieldiron",
+     "idle": [],
+     "idle_faction": [
+	"seed", "nausea", "hungry", "eye", 
+ 	"bone", "bush", "tree", "feather", "fish", "flint", "orc", "random"
+	],
+     "engage": [
+	"skull", "yell", "jaw"
+	]
+}

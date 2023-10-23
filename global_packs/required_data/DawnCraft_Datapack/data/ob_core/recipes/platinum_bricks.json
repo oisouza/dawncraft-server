@@ -1,0 +1,42 @@
+{
+  "group": "platinum_bricks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_andesite"
+    },
+    "1": {
+      "item": "minecraft:polished_andesite"
+    },
+    "2": {
+      "item": "minecraft:polished_andesite"
+    },
+    "3": {
+      "item": "minecraft:polished_andesite"
+    },
+    "4": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "5": {
+      "item": "minecraft:polished_andesite"
+    },
+    "6": {
+      "item": "minecraft:polished_andesite"
+    },
+    "7": {
+      "item": "minecraft:polished_andesite"
+    },
+    "8": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "result": {
+    "item": "ob_core:platinum_bricks",
+    "count": 8
+  }
+}

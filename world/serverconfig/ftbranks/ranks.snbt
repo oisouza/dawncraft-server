@@ -1,0 +1,40 @@
+{
+	member: {
+		name: "Member"
+		power: 1
+		condition: "always_active"
+		ftbranks.name_format: "<&f{name}>"
+		command.addplayerfaction: false
+		command.addplayerfaction.resourcelocation: false
+		command.addplayerfaction.resourcelocation.entity: false
+		command.addreputation: false
+		command.addreputation.resourcelocation: false
+		command.addreputation.resourcelocation.entity: false
+		command.addreputation.resourcelocation.entity.reputation: false
+		command.addreputation.resourcelocation.reputation: false
+		command.setreputation: false
+		command.setreputation.resourcelocation: false
+		command.setreputation.resourcelocation.entity: false
+		command.setreputation.resourcelocation.entity.reputation: false
+		command.setreputation.resourcelocation.reputation: false
+	}
+	admin: {
+		name: "Admin"
+		power: 1000
+		condition: "op"
+		ftbranks.name_format: "<&f{name}>"
+		command.addplayerfaction: true
+		command.addplayerfaction.resourcelocation: true
+		command.addplayerfaction.resourcelocation.entity: true
+		command.addreputation: true
+		command.addreputation.resourcelocation: true
+		command.addreputation.resourcelocation.entity: true
+		command.addreputation.resourcelocation.entity.reputation: true
+		command.addreputation.resourcelocation.reputation: true
+		command.setreputation: true
+		command.setreputation.resourcelocation: true
+		command.setreputation.resourcelocation.entity: true
+		command.setreputation.resourcelocation.entity.reputation: true
+		command.setreputation.resourcelocation.reputation: false
+	}
+}

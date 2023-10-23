@@ -1,0 +1,26 @@
+{
+  "group": "paladin_boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "2": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "3": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "5": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "ob_core:paladin_boots",
+    "count": 1
+  }
+}

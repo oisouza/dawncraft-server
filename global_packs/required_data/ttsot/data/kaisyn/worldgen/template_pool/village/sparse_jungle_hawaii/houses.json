@@ -1,0 +1,130 @@
+{
+  "name": "kaisyn:village/sparse_jungle_hawaii/houses",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/armorer_mason_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/butcher_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/cartographer_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/ground_house_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/ground_house_2",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/farm_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/fletcher_fischer_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/shepherd_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/stilt_house_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/stilt_house_2",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/stilt_house_3",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/stilt_house_4",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/temple_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+	{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:empty_pool_element",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

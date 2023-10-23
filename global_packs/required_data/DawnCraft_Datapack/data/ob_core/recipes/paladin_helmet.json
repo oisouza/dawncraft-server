@@ -1,0 +1,32 @@
+{
+  "group": "paladin_helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "1": {
+      "item": "bloodandmadness:sanguisteel_ingot"		
+    },
+    "2": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "3": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    },
+    "4": {
+        "tag": "forge:ingots/steel"
+    },	
+    "5": {
+        "tag": "forge:ob_materials/platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "ob_core:paladin_helmet",
+    "count": 1
+  }
+}
